@@ -1,0 +1,18 @@
+{
+    "shortid": "SyemgFj2xU",
+    "name": "colors",
+    "recipe": "chrome-pdf",
+    "engine": "handlebars",
+    "chrome": {
+        "printBackground": true
+    },
+    "folder": {
+        "shortid": "PT6x0Id"
+    },
+    "creationDate": "2020-01-15T15:00:23.262Z",
+    "modificationDate": {
+        "$$date": 1579192566354
+    },
+    "_id": "F7V5Sz2RTIQdtOSR",
+    "$entitySet": "templates"
+}

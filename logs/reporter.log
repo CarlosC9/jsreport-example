@@ -1,0 +1,1556 @@
+2020-01-15T14:58:24.471Z - info: Initializing jsreport@2.6.1 in development mode using configuration file: jsreport.config.json
+2020-01-15T14:58:24.472Z - info: Searching for available extensions in C:\Users\AlumnadoTarde\Desktop\jsreport\
+2020-01-15T14:58:24.477Z - info: Extensions location cache doesn't contain entry yet, crawling
+2020-01-15T14:58:25.231Z - info: Found 35 extensions
+2020-01-15T14:58:25.410Z - debug: Writing extension locations cache to C:\Users\ALUMNA~3\AppData\Local\Temp\jsreport\core\locations.json
+2020-01-15T14:58:25.411Z - debug: Discovered 35 extensions
+2020-01-15T14:58:25.504Z - info: Setting dedicated-process (process based) strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2020-01-15T14:58:25.515Z - info: Using extension handlebars@2.1.0
+2020-01-15T14:58:25.526Z - info: Using extension jsrender@2.1.1
+2020-01-15T14:58:25.527Z - info: Using extension templates@2.3.2
+2020-01-15T14:58:25.532Z - debug: Extension authentication@2.3.0 is disabled, skipping
+2020-01-15T14:58:25.532Z - info: Using extension import-export@1.4.0
+2020-01-15T14:58:25.581Z - info: Using extension freeze@2.0.0
+2020-01-15T14:58:25.584Z - info: Using extension cli@2.1.1
+2020-01-15T14:58:25.585Z - info: Using extension express@2.5.0
+2020-01-15T14:58:25.749Z - info: Using extension debug@2.1.1
+2020-01-15T14:58:25.751Z - info: Using extension tags@2.3.0
+2020-01-15T14:58:25.753Z - info: Using extension docx@2.3.1
+2020-01-15T14:58:25.780Z - info: Using extension chrome-pdf@1.6.1
+2020-01-15T14:58:25.853Z - debug: Chrome strategy is dedicated-process
+2020-01-15T14:58:25.854Z - info: Using extension fs-store@2.6.0
+2020-01-15T14:58:26.116Z - info: Using extension authorization@2.2.5
+2020-01-15T14:58:26.120Z - debug: Extension authorization@2.2.5 was disabled
+2020-01-15T14:58:26.120Z - info: Using extension child-templates@1.3.0
+2020-01-15T14:58:26.125Z - info: Using extension browser-client@2.2.1
+2020-01-15T14:58:26.127Z - info: Using extension licensing@2.1.2
+2020-01-15T14:58:26.130Z - info: Using extension data@2.1.0
+2020-01-15T14:58:26.132Z - info: Using extension pptx@0.4.1
+2020-01-15T14:58:26.142Z - info: Using extension version-control@1.3.2
+2020-01-15T14:58:26.226Z - info: Using extension reports@2.2.0
+2020-01-15T14:58:26.231Z - info: Using extension text@2.0.0
+2020-01-15T14:58:26.232Z - info: Using extension base@2.0.2
+2020-01-15T14:58:26.233Z - info: Using extension static-pdf@0.3.1
+2020-01-15T14:58:26.237Z - info: Using extension studio@2.6.6
+2020-01-15T14:58:26.280Z - debug: studio request logs are enabled (flush interval: 2000)
+2020-01-15T14:58:26.282Z - info: Using extension pdf-utils@1.5.2
+2020-01-15T14:58:26.430Z - info: Using extension scripts@2.2.1
+2020-01-15T14:58:26.434Z - info: Using extension html-to-xlsx@2.4.1
+2020-01-15T14:58:26.532Z - info: html-to-xlsx detected chrome as available html engine
+2020-01-15T14:58:26.532Z - info: Using extension assets@1.5.1
+2020-01-15T14:58:26.543Z - info: Using extension studio-theme-dark@0.2.0
+2020-01-15T14:58:26.544Z - info: Using extension scheduling@2.1.1
+2020-01-15T14:58:26.576Z - info: Using extension xlsx@2.2.1
+2020-01-15T14:58:26.696Z - info: Using extension sample-template@2.4.0
+2020-01-15T14:58:26.700Z - info: Using extension resources@2.0.3
+2020-01-15T14:58:26.701Z - info: Using extension public-templates@2.1.0
+2020-01-15T14:58:26.706Z - debug: Extension public-templates@2.1.0 was disabled
+2020-01-15T14:58:26.706Z - info: Using fs provider for template store.
+2020-01-15T14:58:26.709Z - info: fs store is persisting using fs
+2020-01-15T14:58:26.710Z - info: fs store is synchronizing using fs
+2020-01-15T14:58:26.711Z - info: fs store is loading data
+2020-01-15T14:58:26.717Z - debug: fs store sync is configured to use polling for files watcher
+2020-01-15T14:58:26.741Z - info: fs store is initialized successfully
+2020-01-15T14:58:26.748Z - debug: studio default theme is: light
+2020-01-15T14:58:26.765Z - info: Creating default express app.
+2020-01-15T14:58:26.804Z - info: jsreport server successfully started on http port: 5488
+2020-01-15T14:58:26.805Z - info: fs store emits sockets to synchronize underlying changes with studio
+2020-01-15T14:58:26.809Z - info: Verifying license key free
+2020-01-15T14:58:26.810Z - info: Using free license
+2020-01-15T14:58:26.814Z - debug: Inserting samples
+2020-01-15T14:58:26.819Z - debug: Creating folder "samples" for sample entities
+2020-01-15T14:58:26.831Z - debug: Inserting sample entity Invoice (entitySet: folders)
+2020-01-15T14:58:26.848Z - debug: Inserting sample entity Orders (entitySet: folders)
+2020-01-15T14:58:26.858Z - debug: Inserting sample entity Sales (entitySet: folders)
+2020-01-15T14:58:26.867Z - debug: Inserting sample entity shared (entitySet: folders)
+2020-01-15T14:58:26.875Z - debug: Inserting sample entity invoice-data (entitySet: data)
+2020-01-15T14:58:26.888Z - debug: Inserting sample entity sales-data (entitySet: data)
+2020-01-15T14:58:26.899Z - debug: Inserting sample entity sales-main (entitySet: templates)
+2020-01-15T14:58:26.926Z - debug: Inserting sample entity invoice-main (entitySet: templates)
+2020-01-15T14:58:26.985Z - debug: Inserting sample entity orders-header (entitySet: templates)
+2020-01-15T14:58:27.003Z - debug: Inserting sample entity orders-main (entitySet: templates)
+2020-01-15T14:58:27.023Z - debug: Inserting sample entity invoice-styles.css (entitySet: assets)
+2020-01-15T14:58:27.040Z - debug: Inserting sample entity invoice-logo.png (entitySet: assets)
+2020-01-15T14:58:27.064Z - debug: Inserting sample entity sales-styles.css (entitySet: assets)
+2020-01-15T14:58:27.078Z - debug: Inserting sample entity global helpers.js (entitySet: assets)
+2020-01-15T14:58:27.086Z - debug: Inserting sample entity orders-script (entitySet: scripts)
+2020-01-15T14:58:27.096Z - info: reporter initialized
+2020-01-15T14:58:28.360Z - debug: OData query on templates
+2020-01-15T14:58:28.365Z - debug: OData query on scripts
+2020-01-15T14:58:28.367Z - debug: OData query on folders
+2020-01-15T14:58:28.368Z - debug: OData query on tags
+2020-01-15T14:58:28.369Z - debug: OData query on data
+2020-01-15T14:58:28.370Z - debug: OData query on assets
+2020-01-15T14:58:28.381Z - debug: OData query on xlsxTemplates
+2020-01-15T14:58:28.383Z - debug: OData query on schedules
+2020-01-15T14:58:28.392Z - debug: OData query on settings
+2020-01-15T14:58:28.483Z - debug: OData query on templates
+2020-01-15T14:58:28.493Z - debug: OData query on settings
+2020-01-15T14:58:32.892Z - debug: OData query on data
+2020-01-15T14:58:33.595Z - debug: OData query on assets
+2020-01-15T14:58:34.547Z - debug: OData query on templates
+2020-01-15T14:58:37.542Z - info: Starting rendering request 1 (user: null)
+2020-01-15T14:58:37.547Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T14:58:37.549Z - debug: Adding sample data Sy5S19ncg
+2020-01-15T14:58:37.549Z - debug: Resources not defined for this template.
+2020-01-15T14:58:37.559Z - debug: Replaced assets ["invoice-styles.css","invoice-logo.png"]
+2020-01-15T14:58:37.562Z - debug: Base url not specified, skipping its injection.
+2020-01-15T14:58:37.566Z - debug: Rendering engine handlebars
+2020-01-15T14:58:37.803Z - debug: Compiled template not found in the cache, compiling
+2020-01-15T14:58:37.803Z - debug: Calculating item Website design; you should see this message in debug run
+2020-01-15T14:58:37.805Z - debug: Executing recipe chrome-pdf
+2020-01-15T14:58:38.125Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-15T14:58:38.320Z - debug: Running chrome with params {"printBackground":true,"marginTop":"1cm","marginRight":"1cm","marginBottom":"1cm","marginLeft":"1cm","headerTemplate":"","footerTemplate":"","margin":{"top":"1cm","right":"1cm","bottom":"1cm","left":"1cm"}}
+2020-01-15T14:58:38.594Z - debug: Skipping storing report.
+2020-01-15T14:58:38.595Z - info: Rendering request 1 finished in 1054 ms
+2020-01-15T14:59:39.623Z - debug: OData insert into folders
+2020-01-15T15:00:23.261Z - debug: OData insert into templates
+2020-01-15T15:00:25.167Z - info: Starting rendering request 2 (user: null)
+2020-01-15T15:00:25.170Z - info: Rendering template { name: newTemplate, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-01-15T15:00:25.171Z - debug: Data item not defined for this template.
+2020-01-15T15:00:25.171Z - debug: Resources not defined for this template.
+2020-01-15T15:00:25.174Z - debug: Base url not specified, skipping its injection.
+2020-01-15T15:00:25.175Z - debug: Rendering engine handlebars
+2020-01-15T15:00:25.377Z - debug: Compiled template not found in the cache, compiling
+2020-01-15T15:00:25.378Z - debug: Executing recipe chrome-pdf
+2020-01-15T15:00:25.494Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-15T15:00:25.579Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-15T15:00:25.740Z - debug: Skipping storing report.
+2020-01-15T15:00:25.740Z - info: Rendering request 2 finished in 574 ms
+2020-01-15T15:00:34.057Z - debug: OData update on templates
+2020-01-15T15:00:34.080Z - debug: OData query on templates
+2020-01-15T15:00:35.536Z - info: Starting rendering request 3 (user: null)
+2020-01-15T15:00:35.539Z - info: Rendering template { name: newTemplate, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-01-15T15:00:35.540Z - debug: Data item not defined for this template.
+2020-01-15T15:00:35.540Z - debug: Resources not defined for this template.
+2020-01-15T15:00:35.543Z - debug: Base url not specified, skipping its injection.
+2020-01-15T15:00:35.544Z - debug: Rendering engine handlebars
+2020-01-15T15:00:35.754Z - debug: Compiled template not found in the cache, compiling
+2020-01-15T15:00:35.755Z - debug: Executing recipe chrome-pdf
+2020-01-15T15:00:35.861Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-15T15:00:35.951Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-15T15:00:36.049Z - debug: Skipping storing report.
+2020-01-15T15:00:36.050Z - info: Rendering request 3 finished in 515 ms
+2020-01-15T15:00:58.933Z - debug: OData query on assets
+2020-01-15T15:01:08.285Z - debug: OData query on templates
+2020-01-15T15:01:18.991Z - info: Starting rendering request 4 (user: null)
+2020-01-15T15:01:18.993Z - info: Rendering template { name: newTemplate, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-01-15T15:01:18.993Z - debug: Data item not defined for this template.
+2020-01-15T15:01:18.994Z - debug: Resources not defined for this template.
+2020-01-15T15:01:18.996Z - debug: Base url not specified, skipping its injection.
+2020-01-15T15:01:18.996Z - debug: Rendering engine handlebars
+2020-01-15T15:01:19.201Z - debug: Compiled template not found in the cache, compiling
+2020-01-15T15:01:19.202Z - debug: Executing recipe chrome-pdf
+2020-01-15T15:01:19.316Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-15T15:01:19.401Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-15T15:01:19.501Z - debug: Skipping storing report.
+2020-01-15T15:01:19.502Z - info: Rendering request 4 finished in 510 ms
+2020-01-15T15:05:52.662Z - debug: OData update on templates
+2020-01-15T15:05:52.685Z - debug: OData query on templates
+2020-01-15T15:09:22.880Z - info: Starting rendering request 5 (user: null)
+2020-01-15T15:09:22.880Z - info: Rendering template { name: newTemplate, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-01-15T15:09:22.881Z - debug: Data item not defined for this template.
+2020-01-15T15:09:22.881Z - debug: Resources not defined for this template.
+2020-01-15T15:09:22.883Z - debug: Base url not specified, skipping its injection.
+2020-01-15T15:09:22.884Z - debug: Rendering engine handlebars
+2020-01-15T15:09:23.105Z - debug: Compiled template not found in the cache, compiling
+2020-01-15T15:09:23.106Z - debug: Executing recipe chrome-pdf
+2020-01-15T15:09:23.369Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-15T15:09:23.504Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-15T15:09:23.631Z - debug: Skipping storing report.
+2020-01-15T15:09:23.632Z - info: Rendering request 5 finished in 752 ms
+2020-01-15T15:09:27.628Z - info: Starting rendering request 6 (user: null)
+2020-01-15T15:09:27.630Z - info: Rendering template { name: newTemplate, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T15:09:27.631Z - debug: Data item not defined for this template.
+2020-01-15T15:09:27.632Z - debug: Resources not defined for this template.
+2020-01-15T15:09:27.636Z - debug: Base url not specified, skipping its injection.
+2020-01-15T15:09:27.638Z - debug: Rendering engine handlebars
+2020-01-15T15:09:27.855Z - debug: Compiled template not found in the cache, compiling
+2020-01-15T15:09:27.855Z - debug: Executing recipe chrome-pdf
+2020-01-15T15:09:27.962Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-15T15:09:28.046Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-15T15:09:28.142Z - debug: Skipping storing report.
+2020-01-15T15:09:28.143Z - info: Rendering request 6 finished in 514 ms
+2020-01-15T15:11:47.745Z - info: Starting rendering request 7 (user: null)
+2020-01-15T15:11:47.748Z - warn: Error when processing render request Unable to find specified template or user doesnt have permissions to read it: Byej02qsxU Error: Unable to find specified template or user doesnt have permissions to read it: Byej02qsxU
+    at module.exports (C:\Users\AlumnadoTarde\Desktop\jsreport\node_modules\jsreport-core\lib\util\createError.js:11:13)
+    at Reporter.createError (C:\Users\AlumnadoTarde\Desktop\jsreport\node_modules\jsreport-core\lib\reporter.js:299:12)
+    at AsyncFunction.<anonymous> (C:\Users\AlumnadoTarde\Desktop\jsreport\node_modules\jsreport-templates\lib\templates.js:134:20)
+2020-01-15T15:11:47.749Z - warn: Error during processing request at http://localhost:5488/api/report
+2020-01-15T15:12:28.018Z - info: Starting rendering request 8 (user: null)
+2020-01-15T15:12:28.019Z - info: Rendering template { name: newTemplate, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T15:12:28.019Z - debug: Inline data specified.
+2020-01-15T15:12:28.020Z - debug: Resources not defined for this template.
+2020-01-15T15:12:28.021Z - debug: Base url not specified, skipping its injection.
+2020-01-15T15:12:28.022Z - debug: Rendering engine handlebars
+2020-01-15T15:12:28.220Z - debug: Compiled template not found in the cache, compiling
+2020-01-15T15:12:28.220Z - debug: Executing recipe chrome-pdf
+2020-01-15T15:12:28.338Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-15T15:12:28.429Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-15T15:12:28.540Z - debug: Skipping storing report.
+2020-01-15T15:12:28.541Z - info: Rendering request 8 finished in 524 ms
+2020-01-15T17:04:03.052Z - info: Starting rendering request 9 (user: null)
+2020-01-15T17:04:03.052Z - info: Rendering template { name: newTemplate, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T17:04:03.053Z - debug: Inline data specified.
+2020-01-15T17:04:03.053Z - debug: Resources not defined for this template.
+2020-01-15T17:04:03.054Z - debug: Base url not specified, skipping its injection.
+2020-01-15T17:04:03.055Z - debug: Rendering engine handlebars
+2020-01-15T17:04:03.290Z - debug: Compiled template not found in the cache, compiling
+2020-01-15T17:04:03.291Z - debug: Executing recipe chrome-pdf
+2020-01-15T17:04:03.643Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-15T17:04:03.792Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-15T17:04:03.972Z - debug: Skipping storing report.
+2020-01-15T17:04:03.973Z - info: Rendering request 9 finished in 921 ms
+2020-01-15T17:20:32.839Z - info: Starting rendering request 10 (user: null)
+2020-01-15T17:20:32.841Z - info: Rendering template { name: newTemplate, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T17:20:32.841Z - debug: Inline data specified.
+2020-01-15T17:20:32.842Z - debug: Resources not defined for this template.
+2020-01-15T17:20:32.845Z - debug: Base url not specified, skipping its injection.
+2020-01-15T17:20:32.845Z - debug: Rendering engine handlebars
+2020-01-15T17:20:33.041Z - debug: Compiled template not found in the cache, compiling
+2020-01-15T17:20:33.043Z - debug: Executing recipe chrome-pdf
+2020-01-15T17:20:33.138Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-15T17:20:33.222Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-15T17:20:33.377Z - debug: Skipping storing report.
+2020-01-15T17:20:33.378Z - info: Rendering request 10 finished in 539 ms
+2020-01-15T17:44:02.852Z - info: Starting rendering request 11 (user: null)
+2020-01-15T17:44:02.853Z - info: Rendering template { name: newTemplate, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T17:44:02.854Z - debug: Inline data specified.
+2020-01-15T17:44:02.854Z - debug: Resources not defined for this template.
+2020-01-15T17:44:02.856Z - debug: Base url not specified, skipping its injection.
+2020-01-15T17:44:02.857Z - debug: Rendering engine handlebars
+2020-01-15T17:44:03.057Z - debug: Compiled template not found in the cache, compiling
+2020-01-15T17:44:03.057Z - debug: Executing recipe chrome-pdf
+2020-01-15T17:44:03.161Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-15T17:44:03.245Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-15T17:44:03.363Z - debug: Skipping storing report.
+2020-01-15T17:44:03.364Z - info: Rendering request 11 finished in 512 ms
+2020-01-15T18:05:11.956Z - info: Starting rendering request 12 (user: null)
+2020-01-15T18:05:11.956Z - info: Rendering template { name: newTemplate, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T18:05:11.957Z - debug: Inline data specified.
+2020-01-15T18:05:11.958Z - debug: Resources not defined for this template.
+2020-01-15T18:05:11.961Z - debug: Base url not specified, skipping its injection.
+2020-01-15T18:05:11.961Z - debug: Rendering engine handlebars
+2020-01-15T18:05:12.165Z - debug: Compiled template not found in the cache, compiling
+2020-01-15T18:05:12.166Z - debug: Executing recipe chrome-pdf
+2020-01-15T18:05:12.283Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-15T18:05:12.381Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-15T18:05:12.512Z - debug: Skipping storing report.
+2020-01-15T18:05:12.512Z - info: Rendering request 12 finished in 557 ms
+2020-01-15T18:05:14.289Z - info: Starting rendering request 13 (user: null)
+2020-01-15T18:05:14.290Z - info: Rendering template { name: newTemplate, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T18:05:14.291Z - debug: Inline data specified.
+2020-01-15T18:05:14.291Z - debug: Resources not defined for this template.
+2020-01-15T18:05:14.293Z - debug: Base url not specified, skipping its injection.
+2020-01-15T18:05:14.293Z - debug: Rendering engine handlebars
+2020-01-15T18:05:14.492Z - debug: Compiled template not found in the cache, compiling
+2020-01-15T18:05:14.493Z - debug: Executing recipe chrome-pdf
+2020-01-15T18:05:14.601Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-15T18:05:14.688Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-15T18:05:14.805Z - debug: Skipping storing report.
+2020-01-15T18:05:14.805Z - info: Rendering request 13 finished in 517 ms
+2020-01-15T18:05:14.811Z - info: Starting rendering request 14 (user: null)
+2020-01-15T18:05:14.811Z - info: Rendering template { name: newTemplate, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T18:05:14.812Z - debug: Inline data specified.
+2020-01-15T18:05:14.813Z - debug: Resources not defined for this template.
+2020-01-15T18:05:14.814Z - debug: Base url not specified, skipping its injection.
+2020-01-15T18:05:14.815Z - debug: Rendering engine handlebars
+2020-01-15T18:05:15.013Z - debug: Compiled template not found in the cache, compiling
+2020-01-15T18:05:15.013Z - debug: Executing recipe chrome-pdf
+2020-01-15T18:05:15.102Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-15T18:05:15.190Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-15T18:05:15.303Z - debug: Skipping storing report.
+2020-01-15T18:05:15.303Z - info: Rendering request 14 finished in 493 ms
+2020-01-15T18:06:10.225Z - info: Starting rendering request 15 (user: null)
+2020-01-15T18:06:10.226Z - info: Rendering template { name: newTemplate, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T18:06:10.226Z - debug: Inline data specified.
+2020-01-15T18:06:10.227Z - debug: Resources not defined for this template.
+2020-01-15T18:06:10.229Z - debug: Base url not specified, skipping its injection.
+2020-01-15T18:06:10.229Z - debug: Rendering engine handlebars
+2020-01-15T18:06:10.433Z - debug: Compiled template not found in the cache, compiling
+2020-01-15T18:06:10.434Z - debug: Executing recipe chrome-pdf
+2020-01-15T18:06:10.597Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-15T18:06:10.674Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-15T18:06:10.799Z - debug: Skipping storing report.
+2020-01-15T18:06:10.800Z - info: Rendering request 15 finished in 574 ms
+2020-01-15T18:06:11.336Z - info: Starting rendering request 16 (user: null)
+2020-01-15T18:06:11.349Z - info: Rendering template { name: newTemplate, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T18:06:11.355Z - debug: Inline data specified.
+2020-01-15T18:06:11.356Z - debug: Resources not defined for this template.
+2020-01-15T18:06:11.363Z - debug: Base url not specified, skipping its injection.
+2020-01-15T18:06:11.364Z - debug: Rendering engine handlebars
+2020-01-15T18:06:11.564Z - debug: Compiled template not found in the cache, compiling
+2020-01-15T18:06:11.565Z - debug: Executing recipe chrome-pdf
+2020-01-15T18:06:11.666Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-15T18:06:11.745Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-15T18:06:11.867Z - debug: Skipping storing report.
+2020-01-15T18:06:11.867Z - info: Rendering request 16 finished in 532 ms
+2020-01-15T18:06:11.872Z - info: Starting rendering request 17 (user: null)
+2020-01-15T18:06:11.873Z - info: Rendering template { name: newTemplate, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T18:06:11.873Z - debug: Inline data specified.
+2020-01-15T18:06:11.874Z - debug: Resources not defined for this template.
+2020-01-15T18:06:11.875Z - debug: Base url not specified, skipping its injection.
+2020-01-15T18:06:11.875Z - debug: Rendering engine handlebars
+2020-01-15T18:06:12.072Z - debug: Compiled template not found in the cache, compiling
+2020-01-15T18:06:12.072Z - debug: Executing recipe chrome-pdf
+2020-01-15T18:06:12.167Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-15T18:06:12.258Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-15T18:06:12.377Z - debug: Skipping storing report.
+2020-01-15T18:06:12.377Z - info: Rendering request 17 finished in 505 ms
+2020-01-15T18:06:39.166Z - info: Starting rendering request 18 (user: null)
+2020-01-15T18:06:39.167Z - info: Rendering template { name: newTemplate, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T18:06:39.168Z - debug: Inline data specified.
+2020-01-15T18:06:39.168Z - debug: Resources not defined for this template.
+2020-01-15T18:06:39.169Z - debug: Base url not specified, skipping its injection.
+2020-01-15T18:06:39.170Z - debug: Rendering engine handlebars
+2020-01-15T18:06:39.379Z - debug: Compiled template not found in the cache, compiling
+2020-01-15T18:06:39.380Z - debug: Executing recipe chrome-pdf
+2020-01-15T18:06:39.480Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-15T18:06:39.568Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-15T18:06:39.790Z - debug: Skipping storing report.
+2020-01-15T18:06:39.792Z - info: Rendering request 18 finished in 625 ms
+2020-01-15T18:06:44.444Z - info: Starting rendering request 19 (user: null)
+2020-01-15T18:06:44.445Z - info: Rendering template { name: newTemplate, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T18:06:44.445Z - debug: Inline data specified.
+2020-01-15T18:06:44.446Z - debug: Resources not defined for this template.
+2020-01-15T18:06:44.448Z - debug: Base url not specified, skipping its injection.
+2020-01-15T18:06:44.449Z - debug: Rendering engine handlebars
+2020-01-15T18:06:44.658Z - debug: Compiled template not found in the cache, compiling
+2020-01-15T18:06:44.659Z - debug: Executing recipe chrome-pdf
+2020-01-15T18:06:44.757Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-15T18:06:44.857Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-15T18:06:44.974Z - debug: Skipping storing report.
+2020-01-15T18:06:44.974Z - info: Rendering request 19 finished in 530 ms
+2020-01-15T18:07:34.812Z - info: Starting rendering request 20 (user: null)
+2020-01-15T18:07:34.813Z - info: Rendering template { name: newTemplate, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T18:07:34.814Z - debug: Inline data specified.
+2020-01-15T18:07:34.814Z - debug: Resources not defined for this template.
+2020-01-15T18:07:34.816Z - debug: Base url not specified, skipping its injection.
+2020-01-15T18:07:34.816Z - debug: Rendering engine handlebars
+2020-01-15T18:07:35.027Z - debug: Compiled template not found in the cache, compiling
+2020-01-15T18:07:35.028Z - debug: Executing recipe chrome-pdf
+2020-01-15T18:07:35.117Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-15T18:07:35.209Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-15T18:07:35.333Z - debug: Skipping storing report.
+2020-01-15T18:07:35.334Z - info: Rendering request 20 finished in 522 ms
+2020-01-15T18:07:58.030Z - info: Starting rendering request 21 (user: null)
+2020-01-15T18:07:58.030Z - info: Rendering template { name: newTemplate, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T18:07:58.032Z - debug: Inline data specified.
+2020-01-15T18:07:58.032Z - debug: Resources not defined for this template.
+2020-01-15T18:07:58.034Z - debug: Base url not specified, skipping its injection.
+2020-01-15T18:07:58.034Z - debug: Rendering engine handlebars
+2020-01-15T18:07:58.238Z - debug: Compiled template not found in the cache, compiling
+2020-01-15T18:07:58.239Z - debug: Executing recipe chrome-pdf
+2020-01-15T18:07:58.344Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-15T18:07:58.439Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-15T18:07:58.569Z - debug: Skipping storing report.
+2020-01-15T18:07:58.569Z - info: Rendering request 21 finished in 540 ms
+2020-01-15T18:08:43.687Z - info: Starting rendering request 22 (user: null)
+2020-01-15T18:08:43.688Z - info: Rendering template { name: newTemplate, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T18:08:43.689Z - debug: Inline data specified.
+2020-01-15T18:08:43.689Z - debug: Resources not defined for this template.
+2020-01-15T18:08:43.691Z - debug: Base url not specified, skipping its injection.
+2020-01-15T18:08:43.691Z - debug: Rendering engine handlebars
+2020-01-15T18:08:43.898Z - debug: Compiled template not found in the cache, compiling
+2020-01-15T18:08:43.899Z - debug: Executing recipe chrome-pdf
+2020-01-15T18:08:44.009Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-15T18:08:44.085Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-15T18:08:44.214Z - debug: Skipping storing report.
+2020-01-15T18:08:44.214Z - info: Rendering request 22 finished in 527 ms
+2020-01-15T18:09:26.573Z - info: Starting rendering request 23 (user: null)
+2020-01-15T18:09:26.574Z - info: Rendering template { name: newTemplate, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T18:09:26.575Z - debug: Inline data specified.
+2020-01-15T18:09:26.575Z - debug: Resources not defined for this template.
+2020-01-15T18:09:26.578Z - debug: Base url not specified, skipping its injection.
+2020-01-15T18:09:26.579Z - debug: Rendering engine handlebars
+2020-01-15T18:09:26.798Z - debug: Compiled template not found in the cache, compiling
+2020-01-15T18:09:26.798Z - debug: Executing recipe chrome-pdf
+2020-01-15T18:09:26.908Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-15T18:09:27.005Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-15T18:09:27.225Z - debug: Skipping storing report.
+2020-01-15T18:09:27.227Z - info: Rendering request 23 finished in 654 ms
+2020-01-15T18:09:36.670Z - info: Starting rendering request 24 (user: null)
+2020-01-15T18:09:36.671Z - info: Rendering template { name: newTemplate, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T18:09:36.671Z - debug: Inline data specified.
+2020-01-15T18:09:36.672Z - debug: Resources not defined for this template.
+2020-01-15T18:09:36.674Z - debug: Base url not specified, skipping its injection.
+2020-01-15T18:09:36.674Z - debug: Rendering engine handlebars
+2020-01-15T18:09:36.884Z - debug: Compiled template not found in the cache, compiling
+2020-01-15T18:09:36.885Z - debug: Executing recipe chrome-pdf
+2020-01-15T18:09:37.045Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-15T18:09:37.137Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-15T18:09:37.258Z - debug: Skipping storing report.
+2020-01-15T18:09:37.259Z - info: Rendering request 24 finished in 588 ms
+2020-01-15T18:13:43.347Z - info: Starting rendering request 25 (user: null)
+2020-01-15T18:13:43.348Z - info: Rendering template { name: newTemplate, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T18:13:43.349Z - debug: Inline data specified.
+2020-01-15T18:13:43.350Z - debug: Resources not defined for this template.
+2020-01-15T18:13:43.351Z - debug: Base url not specified, skipping its injection.
+2020-01-15T18:13:43.352Z - debug: Rendering engine handlebars
+2020-01-15T18:13:43.567Z - debug: Compiled template not found in the cache, compiling
+2020-01-15T18:13:43.568Z - debug: Executing recipe chrome-pdf
+2020-01-15T18:13:43.753Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-15T18:13:43.837Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-15T18:13:43.958Z - debug: Skipping storing report.
+2020-01-15T18:13:43.958Z - info: Rendering request 25 finished in 612 ms
+2020-01-15T18:16:43.266Z - info: Starting rendering request 26 (user: null)
+2020-01-15T18:16:43.267Z - info: Rendering template { name: newTemplate, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T18:16:43.268Z - debug: Inline data specified.
+2020-01-15T18:16:43.268Z - debug: Resources not defined for this template.
+2020-01-15T18:16:43.270Z - debug: Base url not specified, skipping its injection.
+2020-01-15T18:16:43.270Z - debug: Rendering engine handlebars
+2020-01-15T18:16:43.488Z - debug: Compiled template not found in the cache, compiling
+2020-01-15T18:16:43.489Z - debug: Executing recipe chrome-pdf
+2020-01-15T18:16:43.599Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-15T18:16:43.685Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-15T18:16:43.811Z - debug: Skipping storing report.
+2020-01-15T18:16:43.812Z - info: Rendering request 26 finished in 545 ms
+2020-01-15T18:17:26.272Z - info: Starting rendering request 27 (user: null)
+2020-01-15T18:17:26.274Z - info: Rendering template { name: newTemplate, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T18:17:26.275Z - debug: Inline data specified.
+2020-01-15T18:17:26.276Z - debug: Resources not defined for this template.
+2020-01-15T18:17:26.278Z - debug: Base url not specified, skipping its injection.
+2020-01-15T18:17:26.279Z - debug: Rendering engine handlebars
+2020-01-15T18:17:26.485Z - debug: Compiled template not found in the cache, compiling
+2020-01-15T18:17:26.486Z - debug: Executing recipe chrome-pdf
+2020-01-15T18:17:26.579Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-15T18:17:26.675Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-15T18:17:26.807Z - debug: Skipping storing report.
+2020-01-15T18:17:26.808Z - info: Rendering request 27 finished in 536 ms
+2020-01-15T18:29:05.208Z - info: Starting rendering request 28 (user: null)
+2020-01-15T18:29:05.208Z - info: Rendering template { name: newTemplate, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T18:29:05.212Z - debug: Inline data specified.
+2020-01-15T18:29:05.212Z - debug: Resources not defined for this template.
+2020-01-15T18:29:05.214Z - debug: Base url not specified, skipping its injection.
+2020-01-15T18:29:05.215Z - debug: Rendering engine handlebars
+2020-01-15T18:29:05.421Z - debug: Compiled template not found in the cache, compiling
+2020-01-15T18:29:05.422Z - debug: Executing recipe chrome-pdf
+2020-01-15T18:29:05.577Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-15T18:29:05.658Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-15T18:29:05.787Z - debug: Skipping storing report.
+2020-01-15T18:29:05.788Z - info: Rendering request 28 finished in 580 ms
+2020-01-15T18:30:48.146Z - info: Starting rendering request 29 (user: null)
+2020-01-15T18:30:48.148Z - info: Rendering template { name: newTemplate, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T18:30:48.148Z - debug: Inline data specified.
+2020-01-15T18:30:48.149Z - debug: Resources not defined for this template.
+2020-01-15T18:30:48.152Z - debug: Base url not specified, skipping its injection.
+2020-01-15T18:30:48.153Z - debug: Rendering engine handlebars
+2020-01-15T18:30:48.373Z - debug: Compiled template not found in the cache, compiling
+2020-01-15T18:30:48.374Z - debug: Executing recipe chrome-pdf
+2020-01-15T18:30:48.471Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-15T18:30:48.554Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-15T18:30:48.677Z - debug: Skipping storing report.
+2020-01-15T18:30:48.678Z - info: Rendering request 29 finished in 532 ms
+2020-01-15T18:32:22.700Z - info: Initializing jsreport@2.6.1 in development mode using configuration file: jsreport.config.json
+2020-01-15T18:32:22.702Z - info: Searching for available extensions in C:\Users\AlumnadoTarde\Desktop\jsreport\
+2020-01-15T18:32:22.709Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\AlumnadoTarde\Desktop\jsreport\
+2020-01-15T18:32:22.715Z - info: Found 35 extensions
+2020-01-15T18:32:22.914Z - debug: Writing extension locations cache to C:\Users\ALUMNA~3\AppData\Local\Temp\jsreport\core\locations.json
+2020-01-15T18:32:22.920Z - debug: Discovered 35 extensions
+2020-01-15T18:32:22.982Z - info: Setting dedicated-process (process based) strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2020-01-15T18:32:22.989Z - info: Using extension handlebars@2.1.0
+2020-01-15T18:32:22.995Z - info: Using extension jsrender@2.1.1
+2020-01-15T18:32:22.997Z - info: Using extension templates@2.3.2
+2020-01-15T18:32:23.000Z - debug: Extension authentication@2.3.0 is disabled, skipping
+2020-01-15T18:32:23.001Z - info: Using extension import-export@1.4.0
+2020-01-15T18:32:23.048Z - info: Using extension freeze@2.0.0
+2020-01-15T18:32:23.050Z - info: Using extension cli@2.1.1
+2020-01-15T18:32:23.051Z - info: Using extension express@2.5.0
+2020-01-15T18:32:23.205Z - info: Using extension debug@2.1.1
+2020-01-15T18:32:23.207Z - info: Using extension tags@2.3.0
+2020-01-15T18:32:23.209Z - info: Using extension docx@2.3.1
+2020-01-15T18:32:23.242Z - info: Using extension chrome-pdf@1.6.1
+2020-01-15T18:32:23.322Z - debug: Chrome strategy is dedicated-process
+2020-01-15T18:32:23.323Z - info: Using extension fs-store@2.6.0
+2020-01-15T18:32:23.591Z - info: Using extension authorization@2.2.5
+2020-01-15T18:32:23.594Z - debug: Extension authorization@2.2.5 was disabled
+2020-01-15T18:32:23.595Z - info: Using extension child-templates@1.3.0
+2020-01-15T18:32:23.600Z - info: Using extension browser-client@2.2.1
+2020-01-15T18:32:23.603Z - info: Using extension licensing@2.1.2
+2020-01-15T18:32:23.607Z - info: Using extension data@2.1.0
+2020-01-15T18:32:23.609Z - info: Using extension pptx@0.4.1
+2020-01-15T18:32:23.618Z - info: Using extension version-control@1.3.2
+2020-01-15T18:32:23.705Z - info: Using extension reports@2.2.0
+2020-01-15T18:32:23.710Z - info: Using extension text@2.0.0
+2020-01-15T18:32:23.712Z - info: Using extension base@2.0.2
+2020-01-15T18:32:23.716Z - info: Using extension static-pdf@0.3.1
+2020-01-15T18:32:23.720Z - info: Using extension studio@2.6.6
+2020-01-15T18:32:23.766Z - debug: studio request logs are enabled (flush interval: 2000)
+2020-01-15T18:32:23.768Z - info: Using extension pdf-utils@1.5.2
+2020-01-15T18:32:23.928Z - info: Using extension scripts@2.2.1
+2020-01-15T18:32:23.932Z - info: Using extension html-to-xlsx@2.4.1
+2020-01-15T18:32:24.040Z - info: html-to-xlsx detected chrome as available html engine
+2020-01-15T18:32:24.041Z - info: Using extension assets@1.5.1
+2020-01-15T18:32:24.052Z - info: Using extension studio-theme-dark@0.2.0
+2020-01-15T18:32:24.054Z - info: Using extension scheduling@2.1.1
+2020-01-15T18:32:24.085Z - info: Using extension xlsx@2.2.1
+2020-01-15T18:32:24.202Z - info: Using extension sample-template@2.4.0
+2020-01-15T18:32:24.205Z - info: Using extension resources@2.0.3
+2020-01-15T18:32:24.206Z - info: Using extension public-templates@2.1.0
+2020-01-15T18:32:24.210Z - debug: Extension public-templates@2.1.0 was disabled
+2020-01-15T18:32:24.212Z - info: Using fs provider for template store.
+2020-01-15T18:32:24.214Z - info: fs store is persisting using fs
+2020-01-15T18:32:24.215Z - info: fs store is synchronizing using fs
+2020-01-15T18:32:24.217Z - info: fs store is loading data
+2020-01-15T18:32:24.253Z - debug: fs store sync is configured to use polling for files watcher
+2020-01-15T18:32:24.307Z - info: fs store is initialized successfully
+2020-01-15T18:32:24.312Z - debug: studio default theme is: light
+2020-01-15T18:32:24.320Z - info: Creating default express app.
+2020-01-15T18:32:24.361Z - info: jsreport server successfully started on http port: 5488
+2020-01-15T18:32:24.371Z - info: fs store emits sockets to synchronize underlying changes with studio
+2020-01-15T18:32:24.378Z - info: Verifying license key free
+2020-01-15T18:32:24.381Z - info: Using free license
+2020-01-15T18:32:24.400Z - info: reporter initialized
+2020-01-15T18:32:26.029Z - info: Starting rendering request 1 (user: null)
+2020-01-15T18:32:26.032Z - info: Starting rendering request 2 (user: null)
+2020-01-15T18:32:26.034Z - info: Rendering template { name: newTemplate, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T18:32:26.035Z - info: Rendering template { name: newTemplate, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T18:32:26.036Z - debug: Inline data specified.
+2020-01-15T18:32:26.037Z - debug: Resources not defined for this template.
+2020-01-15T18:32:26.039Z - debug: Inline data specified.
+2020-01-15T18:32:26.040Z - debug: Resources not defined for this template.
+2020-01-15T18:32:26.045Z - debug: Base url not specified, skipping its injection.
+2020-01-15T18:32:26.046Z - debug: Base url not specified, skipping its injection.
+2020-01-15T18:32:26.047Z - debug: Rendering engine handlebars
+2020-01-15T18:32:26.052Z - debug: Rendering engine handlebars
+2020-01-15T18:32:26.262Z - debug: Compiled template not found in the cache, compiling
+2020-01-15T18:32:26.263Z - debug: Compiled template not found in the cache, compiling
+2020-01-15T18:32:26.264Z - debug: Executing recipe chrome-pdf
+2020-01-15T18:32:26.266Z - debug: Executing recipe chrome-pdf
+2020-01-15T18:32:26.452Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-15T18:32:26.540Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-15T18:32:26.576Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-15T18:32:26.726Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-15T18:32:26.732Z - debug: Skipping storing report.
+2020-01-15T18:32:26.733Z - info: Rendering request 1 finished in 704 ms
+2020-01-15T18:32:26.845Z - debug: Skipping storing report.
+2020-01-15T18:32:26.846Z - info: Rendering request 2 finished in 813 ms
+2020-01-15T18:32:39.824Z - info: Starting rendering request 3 (user: null)
+2020-01-15T18:32:39.828Z - info: Rendering template { name: newTemplate, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T18:32:39.829Z - debug: Inline data specified.
+2020-01-15T18:32:39.830Z - debug: Resources not defined for this template.
+2020-01-15T18:32:39.832Z - debug: Base url not specified, skipping its injection.
+2020-01-15T18:32:39.832Z - debug: Rendering engine handlebars
+2020-01-15T18:32:40.048Z - debug: Compiled template not found in the cache, compiling
+2020-01-15T18:32:40.050Z - debug: Executing recipe chrome-pdf
+2020-01-15T18:32:40.148Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-15T18:32:40.238Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-15T18:32:40.371Z - debug: Skipping storing report.
+2020-01-15T18:32:40.372Z - info: Rendering request 3 finished in 547 ms
+2020-01-15T18:33:09.997Z - debug: OData query on assets
+2020-01-15T18:33:31.272Z - debug: OData query on assets
+2020-01-15T18:33:53.922Z - debug: OData insert into assets
+2020-01-15T18:33:53.990Z - debug: OData query on assets
+2020-01-15T18:34:05.915Z - debug: OData update on templates
+2020-01-15T18:34:05.942Z - debug: OData query on templates
+2020-01-15T18:34:24.479Z - debug: OData query on assets
+2020-01-15T18:34:25.254Z - debug: OData query on templates
+2020-01-15T18:34:25.735Z - debug: OData query on assets
+2020-01-15T18:34:35.080Z - debug: OData update on templates
+2020-01-15T18:34:35.101Z - debug: OData query on templates
+2020-01-15T18:34:54.178Z - debug: OData update on templates
+2020-01-15T18:34:54.204Z - debug: OData query on templates
+2020-01-15T18:34:55.839Z - info: Starting rendering request 4 (user: null)
+2020-01-15T18:34:55.841Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-01-15T18:34:55.842Z - debug: Data item not defined for this template.
+2020-01-15T18:34:55.843Z - debug: Resources not defined for this template.
+2020-01-15T18:34:55.845Z - debug: Base url not specified, skipping its injection.
+2020-01-15T18:34:55.846Z - debug: Rendering engine handlebars
+2020-01-15T18:34:56.055Z - debug: Compiled template not found in the cache, compiling
+2020-01-15T18:34:56.055Z - debug: Executing recipe chrome-pdf
+2020-01-15T18:34:56.162Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-15T18:34:56.255Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-15T18:34:56.427Z - debug: Skipping storing report.
+2020-01-15T18:34:56.428Z - info: Rendering request 4 finished in 589 ms
+2020-01-15T18:35:00.175Z - debug: OData query on assets
+2020-01-15T18:35:15.141Z - debug: OData update on assets
+2020-01-15T18:35:15.164Z - debug: OData query on assets
+2020-01-15T18:35:18.570Z - info: Starting rendering request 5 (user: null)
+2020-01-15T18:35:18.571Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-01-15T18:35:18.571Z - debug: Data item not defined for this template.
+2020-01-15T18:35:18.572Z - debug: Resources not defined for this template.
+2020-01-15T18:35:18.576Z - debug: Base url not specified, skipping its injection.
+2020-01-15T18:35:18.577Z - debug: Rendering engine handlebars
+2020-01-15T18:35:18.788Z - debug: Compiled template not found in the cache, compiling
+2020-01-15T18:35:18.788Z - debug: Executing recipe chrome-pdf
+2020-01-15T18:35:18.957Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-15T18:35:19.036Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-15T18:35:19.159Z - debug: Skipping storing report.
+2020-01-15T18:35:19.159Z - info: Rendering request 5 finished in 590 ms
+2020-01-15T18:36:24.260Z - debug: OData update on templates
+2020-01-15T18:36:24.283Z - debug: OData query on templates
+2020-01-15T18:36:26.074Z - info: Starting rendering request 6 (user: null)
+2020-01-15T18:36:26.076Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-01-15T18:36:26.077Z - debug: Data item not defined for this template.
+2020-01-15T18:36:26.078Z - debug: Resources not defined for this template.
+2020-01-15T18:36:26.083Z - debug: Replaced assets ["colors.css"]
+2020-01-15T18:36:26.084Z - debug: Base url not specified, skipping its injection.
+2020-01-15T18:36:26.085Z - debug: Rendering engine handlebars
+2020-01-15T18:36:26.293Z - debug: Compiled template not found in the cache, compiling
+2020-01-15T18:36:26.294Z - debug: Executing recipe chrome-pdf
+2020-01-15T18:36:26.409Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-15T18:36:26.503Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-15T18:36:26.663Z - debug: Skipping storing report.
+2020-01-15T18:36:26.663Z - info: Rendering request 6 finished in 590 ms
+2020-01-15T18:41:21.747Z - debug: OData update on templates
+2020-01-15T18:41:21.768Z - debug: OData query on templates
+2020-01-15T18:41:40.439Z - debug: OData update on templates
+2020-01-15T18:41:40.458Z - debug: OData query on templates
+2020-01-15T18:41:41.473Z - info: Starting rendering request 7 (user: null)
+2020-01-15T18:41:41.474Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-01-15T18:41:41.475Z - debug: Data item not defined for this template.
+2020-01-15T18:41:41.476Z - debug: Resources not defined for this template.
+2020-01-15T18:41:41.478Z - debug: Replaced assets ["colors.css"]
+2020-01-15T18:41:41.480Z - debug: Base url not specified, skipping its injection.
+2020-01-15T18:41:41.481Z - debug: Rendering engine handlebars
+2020-01-15T18:41:41.685Z - debug: Compiled template not found in the cache, compiling
+2020-01-15T18:41:41.686Z - debug: Executing recipe chrome-pdf
+2020-01-15T18:41:41.785Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-15T18:41:41.897Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-15T18:41:42.091Z - debug: Skipping storing report.
+2020-01-15T18:41:42.091Z - info: Rendering request 7 finished in 619 ms
+2020-01-15T18:41:48.075Z - debug: OData update on templates
+2020-01-15T18:41:48.098Z - debug: OData query on templates
+2020-01-15T18:42:27.020Z - debug: OData update on templates
+2020-01-15T18:42:27.041Z - debug: OData query on templates
+2020-01-15T18:42:28.143Z - info: Starting rendering request 8 (user: null)
+2020-01-15T18:42:28.145Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-01-15T18:42:28.146Z - debug: Data item not defined for this template.
+2020-01-15T18:42:28.147Z - debug: Resources not defined for this template.
+2020-01-15T18:42:28.149Z - debug: Replaced assets ["colors.css"]
+2020-01-15T18:42:28.155Z - debug: Base url not specified, skipping its injection.
+2020-01-15T18:42:28.156Z - debug: Rendering engine handlebars
+2020-01-15T18:42:28.361Z - debug: Compiled template not found in the cache, compiling
+2020-01-15T18:42:28.363Z - debug: Executing recipe chrome-pdf
+2020-01-15T18:42:28.461Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-15T18:42:28.569Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-15T18:42:28.726Z - debug: Skipping storing report.
+2020-01-15T18:42:28.727Z - info: Rendering request 8 finished in 586 ms
+2020-01-15T18:42:44.455Z - debug: OData update on templates
+2020-01-15T18:42:44.478Z - debug: OData query on templates
+2020-01-15T18:42:54.004Z - debug: OData update on templates
+2020-01-15T18:42:54.026Z - debug: OData query on templates
+2020-01-15T18:43:05.526Z - debug: OData update on templates
+2020-01-15T18:43:05.545Z - debug: OData query on templates
+2020-01-15T18:43:17.828Z - debug: OData update on templates
+2020-01-15T18:43:17.850Z - debug: OData query on templates
+2020-01-15T18:46:25.969Z - info: Starting rendering request 9 (user: null)
+2020-01-15T18:46:25.971Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-01-15T18:46:25.972Z - debug: Data item not defined for this template.
+2020-01-15T18:46:25.973Z - debug: Resources not defined for this template.
+2020-01-15T18:46:25.975Z - debug: Replaced assets ["colors.css"]
+2020-01-15T18:46:25.977Z - debug: Base url not specified, skipping its injection.
+2020-01-15T18:46:25.978Z - debug: Rendering engine handlebars
+2020-01-15T18:46:26.186Z - debug: Compiled template not found in the cache, compiling
+2020-01-15T18:46:26.186Z - debug: Executing recipe chrome-pdf
+2020-01-15T18:46:26.362Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-15T18:46:26.450Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-15T18:46:26.618Z - debug: Skipping storing report.
+2020-01-15T18:46:26.618Z - info: Rendering request 9 finished in 650 ms
+2020-01-15T18:46:28.736Z - info: Starting rendering request 10 (user: null)
+2020-01-15T18:46:28.739Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T18:46:28.740Z - debug: Inline data specified.
+2020-01-15T18:46:28.741Z - debug: Resources not defined for this template.
+2020-01-15T18:46:28.744Z - debug: Replaced assets ["colors.css"]
+2020-01-15T18:46:28.746Z - debug: Base url not specified, skipping its injection.
+2020-01-15T18:46:28.747Z - debug: Rendering engine handlebars
+2020-01-15T18:46:28.951Z - debug: Compiled template not found in the cache, compiling
+2020-01-15T18:46:28.952Z - debug: Executing recipe chrome-pdf
+2020-01-15T18:46:29.061Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-15T18:46:29.160Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-15T18:46:29.327Z - debug: Skipping storing report.
+2020-01-15T18:46:29.328Z - info: Rendering request 10 finished in 593 ms
+2020-01-15T18:47:28.686Z - debug: OData update on templates
+2020-01-15T18:47:28.708Z - debug: OData query on templates
+2020-01-15T18:48:03.173Z - debug: OData update on templates
+2020-01-15T18:48:03.193Z - debug: OData query on templates
+2020-01-15T18:48:05.490Z - info: Starting rendering request 11 (user: null)
+2020-01-15T18:48:05.492Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-01-15T18:48:05.492Z - debug: Data item not defined for this template.
+2020-01-15T18:48:05.493Z - debug: Resources not defined for this template.
+2020-01-15T18:48:05.496Z - debug: Replaced assets ["colors.css"]
+2020-01-15T18:48:05.498Z - debug: Base url not specified, skipping its injection.
+2020-01-15T18:48:05.499Z - debug: Rendering engine handlebars
+2020-01-15T18:48:05.707Z - debug: Compiled template not found in the cache, compiling
+2020-01-15T18:48:05.711Z - debug: Executing recipe chrome-pdf
+2020-01-15T18:48:05.819Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-15T18:48:05.913Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-15T18:48:06.109Z - debug: Skipping storing report.
+2020-01-15T18:48:06.109Z - info: Rendering request 11 finished in 619 ms
+2020-01-15T18:48:11.481Z - info: Starting rendering request 12 (user: null)
+2020-01-15T18:48:11.483Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T18:48:11.485Z - debug: Inline data specified.
+2020-01-15T18:48:11.486Z - debug: Resources not defined for this template.
+2020-01-15T18:48:11.489Z - debug: Replaced assets ["colors.css"]
+2020-01-15T18:48:11.491Z - debug: Base url not specified, skipping its injection.
+2020-01-15T18:48:11.492Z - debug: Rendering engine handlebars
+2020-01-15T18:48:11.712Z - debug: Compiled template not found in the cache, compiling
+2020-01-15T18:48:11.713Z - debug: Executing recipe chrome-pdf
+2020-01-15T18:48:11.814Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-15T18:48:11.934Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-15T18:48:12.100Z - debug: Skipping storing report.
+2020-01-15T18:48:12.101Z - info: Rendering request 12 finished in 623 ms
+2020-01-15T18:48:13.903Z - info: Starting rendering request 13 (user: null)
+2020-01-15T18:48:13.904Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T18:48:13.905Z - debug: Inline data specified.
+2020-01-15T18:48:13.906Z - debug: Resources not defined for this template.
+2020-01-15T18:48:13.908Z - debug: Replaced assets ["colors.css"]
+2020-01-15T18:48:13.910Z - debug: Base url not specified, skipping its injection.
+2020-01-15T18:48:13.915Z - debug: Rendering engine handlebars
+2020-01-15T18:48:14.124Z - debug: Compiled template not found in the cache, compiling
+2020-01-15T18:48:14.126Z - debug: Executing recipe chrome-pdf
+2020-01-15T18:48:14.246Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-15T18:48:14.341Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-15T18:48:14.601Z - debug: Skipping storing report.
+2020-01-15T18:48:14.603Z - info: Rendering request 13 finished in 701 ms
+2020-01-15T18:48:27.828Z - info: Starting rendering request 14 (user: null)
+2020-01-15T18:48:27.829Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T18:48:27.830Z - debug: Inline data specified.
+2020-01-15T18:48:27.831Z - debug: Resources not defined for this template.
+2020-01-15T18:48:27.833Z - debug: Replaced assets ["colors.css"]
+2020-01-15T18:48:27.835Z - debug: Base url not specified, skipping its injection.
+2020-01-15T18:48:27.835Z - debug: Rendering engine handlebars
+2020-01-15T18:48:28.040Z - debug: Compiled template not found in the cache, compiling
+2020-01-15T18:48:28.041Z - debug: Executing recipe chrome-pdf
+2020-01-15T18:48:28.148Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-15T18:48:28.249Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-15T18:48:28.426Z - debug: Skipping storing report.
+2020-01-15T18:48:28.426Z - info: Rendering request 14 finished in 598 ms
+2020-01-15T18:48:45.379Z - info: Starting rendering request 15 (user: null)
+2020-01-15T18:48:45.380Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T18:48:45.381Z - debug: Inline data specified.
+2020-01-15T18:48:45.381Z - debug: Resources not defined for this template.
+2020-01-15T18:48:45.384Z - debug: Replaced assets ["colors.css"]
+2020-01-15T18:48:45.387Z - debug: Base url not specified, skipping its injection.
+2020-01-15T18:48:45.388Z - debug: Rendering engine handlebars
+2020-01-15T18:48:45.597Z - debug: Compiled template not found in the cache, compiling
+2020-01-15T18:48:45.598Z - debug: Executing recipe chrome-pdf
+2020-01-15T18:48:45.694Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-15T18:48:45.813Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-15T18:48:45.973Z - debug: Skipping storing report.
+2020-01-15T18:48:45.975Z - info: Rendering request 15 finished in 596 ms
+2020-01-15T18:50:39.241Z - debug: OData update on templates
+2020-01-15T18:50:39.264Z - debug: OData query on templates
+2020-01-15T18:50:44.384Z - info: Starting rendering request 16 (user: null)
+2020-01-15T18:50:44.385Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T18:50:44.386Z - debug: Inline data specified.
+2020-01-15T18:50:44.388Z - debug: Resources not defined for this template.
+2020-01-15T18:50:44.391Z - debug: Replaced assets ["colors.css"]
+2020-01-15T18:50:44.392Z - debug: Base url not specified, skipping its injection.
+2020-01-15T18:50:44.395Z - debug: Rendering engine handlebars
+2020-01-15T18:50:44.613Z - debug: Compiled template not found in the cache, compiling
+2020-01-15T18:50:44.613Z - debug: Executing recipe chrome-pdf
+2020-01-15T18:50:44.721Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-15T18:50:44.816Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-15T18:50:45.015Z - debug: Skipping storing report.
+2020-01-15T18:50:45.016Z - info: Rendering request 16 finished in 633 ms
+2020-01-15T18:50:53.035Z - debug: OData update on templates
+2020-01-15T18:50:53.056Z - debug: OData query on templates
+2020-01-15T18:51:07.240Z - debug: OData update on templates
+2020-01-15T18:51:07.262Z - debug: OData query on templates
+2020-01-15T18:51:10.556Z - info: Starting rendering request 17 (user: null)
+2020-01-15T18:51:10.564Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T18:51:10.566Z - debug: Inline data specified.
+2020-01-15T18:51:10.567Z - debug: Resources not defined for this template.
+2020-01-15T18:51:10.569Z - debug: Replaced assets ["colors.css"]
+2020-01-15T18:51:10.570Z - debug: Base url not specified, skipping its injection.
+2020-01-15T18:51:10.571Z - debug: Rendering engine handlebars
+2020-01-15T18:51:10.780Z - debug: Compiled template not found in the cache, compiling
+2020-01-15T18:51:10.781Z - debug: Executing recipe chrome-pdf
+2020-01-15T18:51:10.902Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-15T18:51:11.009Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-15T18:51:11.168Z - debug: Skipping storing report.
+2020-01-15T18:51:11.169Z - info: Rendering request 17 finished in 614 ms
+2020-01-15T18:52:40.882Z - info: Starting rendering request 18 (user: null)
+2020-01-15T18:52:40.883Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T18:52:40.885Z - debug: Inline data specified.
+2020-01-15T18:52:40.885Z - debug: Resources not defined for this template.
+2020-01-15T18:52:40.887Z - debug: Replaced assets ["colors.css"]
+2020-01-15T18:52:40.889Z - debug: Base url not specified, skipping its injection.
+2020-01-15T18:52:40.891Z - debug: Rendering engine handlebars
+2020-01-15T18:52:41.108Z - debug: Compiled template not found in the cache, compiling
+2020-01-15T18:52:41.109Z - debug: Executing recipe chrome-pdf
+2020-01-15T18:52:41.215Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-15T18:52:41.312Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-15T18:52:41.515Z - debug: Skipping storing report.
+2020-01-15T18:52:41.516Z - info: Rendering request 18 finished in 635 ms
+2020-01-15T19:05:14.520Z - info: Starting rendering request 19 (user: null)
+2020-01-15T19:05:14.522Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T19:05:14.522Z - debug: Inline data specified.
+2020-01-15T19:05:14.523Z - debug: Resources not defined for this template.
+2020-01-15T19:05:14.526Z - debug: Replaced assets ["colors.css"]
+2020-01-15T19:05:14.528Z - debug: Base url not specified, skipping its injection.
+2020-01-15T19:05:14.530Z - debug: Rendering engine handlebars
+2020-01-15T19:05:14.752Z - debug: Compiled template not found in the cache, compiling
+2020-01-15T19:05:14.753Z - debug: Executing recipe chrome-pdf
+2020-01-15T19:05:14.851Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-15T19:05:14.942Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-15T19:05:15.120Z - debug: Skipping storing report.
+2020-01-15T19:05:15.121Z - info: Rendering request 19 finished in 601 ms
+2020-01-15T19:10:02.694Z - info: Starting rendering request 20 (user: null)
+2020-01-15T19:10:02.696Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-15T19:10:02.696Z - debug: Inline data specified.
+2020-01-15T19:10:02.698Z - debug: Resources not defined for this template.
+2020-01-15T19:10:02.701Z - debug: Replaced assets ["colors.css"]
+2020-01-15T19:10:02.703Z - debug: Base url not specified, skipping its injection.
+2020-01-15T19:10:02.704Z - debug: Rendering engine handlebars
+2020-01-15T19:10:02.926Z - debug: Compiled template not found in the cache, compiling
+2020-01-15T19:10:02.927Z - debug: Executing recipe chrome-pdf
+2020-01-15T19:10:03.031Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-15T19:10:03.127Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-15T19:10:03.342Z - debug: Skipping storing report.
+2020-01-15T19:10:03.343Z - info: Rendering request 20 finished in 649 ms
+2020-01-16T14:50:33.091Z - info: Initializing jsreport@2.6.1 in development mode using configuration file: jsreport.config.json
+2020-01-16T14:50:33.092Z - info: Searching for available extensions in C:\Users\AlumnadoTarde\Desktop\jsreport\
+2020-01-16T14:50:33.101Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\AlumnadoTarde\Desktop\jsreport\
+2020-01-16T14:50:33.117Z - info: Found 35 extensions
+2020-01-16T14:50:33.371Z - debug: Writing extension locations cache to C:\Users\ALUMNA~3\AppData\Local\Temp\jsreport\core\locations.json
+2020-01-16T14:50:33.372Z - debug: Discovered 35 extensions
+2020-01-16T14:50:33.435Z - info: Setting dedicated-process (process based) strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2020-01-16T14:50:33.441Z - info: Using extension handlebars@2.1.0
+2020-01-16T14:50:33.446Z - info: Using extension jsrender@2.1.1
+2020-01-16T14:50:33.448Z - info: Using extension templates@2.3.2
+2020-01-16T14:50:33.451Z - debug: Extension authentication@2.3.0 is disabled, skipping
+2020-01-16T14:50:33.451Z - info: Using extension import-export@1.4.0
+2020-01-16T14:50:33.520Z - info: Using extension freeze@2.0.0
+2020-01-16T14:50:33.523Z - info: Using extension cli@2.1.1
+2020-01-16T14:50:33.524Z - info: Using extension express@2.5.0
+2020-01-16T14:50:33.741Z - info: Using extension debug@2.1.1
+2020-01-16T14:50:33.744Z - info: Using extension tags@2.3.0
+2020-01-16T14:50:33.747Z - info: Using extension docx@2.3.1
+2020-01-16T14:50:33.824Z - info: Using extension chrome-pdf@1.6.1
+2020-01-16T14:50:33.952Z - debug: Chrome strategy is dedicated-process
+2020-01-16T14:50:33.952Z - info: Using extension fs-store@2.6.0
+2020-01-16T14:50:34.339Z - info: Using extension authorization@2.2.5
+2020-01-16T14:50:34.344Z - debug: Extension authorization@2.2.5 was disabled
+2020-01-16T14:50:34.345Z - info: Using extension child-templates@1.3.0
+2020-01-16T14:50:34.351Z - info: Using extension browser-client@2.2.1
+2020-01-16T14:50:34.354Z - info: Using extension licensing@2.1.2
+2020-01-16T14:50:34.358Z - info: Using extension data@2.1.0
+2020-01-16T14:50:34.360Z - info: Using extension pptx@0.4.1
+2020-01-16T14:50:34.373Z - info: Using extension version-control@1.3.2
+2020-01-16T14:50:34.512Z - info: Using extension reports@2.2.0
+2020-01-16T14:50:34.518Z - info: Using extension text@2.0.0
+2020-01-16T14:50:34.519Z - info: Using extension base@2.0.2
+2020-01-16T14:50:34.522Z - info: Using extension static-pdf@0.3.1
+2020-01-16T14:50:34.530Z - info: Using extension studio@2.6.6
+2020-01-16T14:50:34.585Z - debug: studio request logs are enabled (flush interval: 2000)
+2020-01-16T14:50:34.587Z - info: Using extension pdf-utils@1.5.2
+2020-01-16T14:50:34.808Z - info: Using extension scripts@2.2.1
+2020-01-16T14:50:34.813Z - info: Using extension html-to-xlsx@2.4.1
+2020-01-16T14:50:34.986Z - info: html-to-xlsx detected chrome as available html engine
+2020-01-16T14:50:34.987Z - info: Using extension assets@1.5.1
+2020-01-16T14:50:35.005Z - info: Using extension studio-theme-dark@0.2.0
+2020-01-16T14:50:35.008Z - info: Using extension scheduling@2.1.1
+2020-01-16T14:50:35.059Z - info: Using extension xlsx@2.2.1
+2020-01-16T14:50:35.223Z - info: Using extension sample-template@2.4.0
+2020-01-16T14:50:35.226Z - info: Using extension resources@2.0.3
+2020-01-16T14:50:35.227Z - info: Using extension public-templates@2.1.0
+2020-01-16T14:50:35.235Z - debug: Extension public-templates@2.1.0 was disabled
+2020-01-16T14:50:35.235Z - info: Using fs provider for template store.
+2020-01-16T14:50:35.238Z - info: fs store is persisting using fs
+2020-01-16T14:50:35.239Z - info: fs store is synchronizing using fs
+2020-01-16T14:50:35.240Z - info: fs store is loading data
+2020-01-16T14:50:35.274Z - debug: fs store sync is configured to use polling for files watcher
+2020-01-16T14:50:35.330Z - info: fs store is initialized successfully
+2020-01-16T14:50:35.336Z - debug: studio default theme is: light
+2020-01-16T14:50:35.344Z - info: Creating default express app.
+2020-01-16T14:50:35.395Z - info: jsreport server successfully started on http port: 5488
+2020-01-16T14:50:35.406Z - info: fs store emits sockets to synchronize underlying changes with studio
+2020-01-16T14:50:35.413Z - info: Verifying license key free
+2020-01-16T14:50:35.417Z - info: Using free license
+2020-01-16T14:50:35.436Z - info: reporter initialized
+2020-01-16T14:53:52.001Z - info: Starting rendering request 1 (user: null)
+2020-01-16T14:53:52.004Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-16T14:53:52.005Z - debug: Inline data specified.
+2020-01-16T14:53:52.006Z - debug: Resources not defined for this template.
+2020-01-16T14:53:52.014Z - debug: Replaced assets ["colors.css"]
+2020-01-16T14:53:52.016Z - debug: Base url not specified, skipping its injection.
+2020-01-16T14:53:52.017Z - debug: Rendering engine handlebars
+2020-01-16T14:53:52.244Z - debug: Compiled template not found in the cache, compiling
+2020-01-16T14:53:52.246Z - debug: Executing recipe chrome-pdf
+2020-01-16T14:53:52.656Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-16T14:53:53.555Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-16T14:53:53.743Z - debug: Skipping storing report.
+2020-01-16T14:53:53.744Z - info: Rendering request 1 finished in 1745 ms
+2020-01-16T14:54:29.616Z - debug: OData query on templates
+2020-01-16T14:54:29.622Z - debug: OData query on folders
+2020-01-16T14:54:29.625Z - debug: OData query on tags
+2020-01-16T14:54:29.626Z - debug: OData query on data
+2020-01-16T14:54:29.628Z - debug: OData query on scripts
+2020-01-16T14:54:29.629Z - debug: OData query on assets
+2020-01-16T14:54:29.639Z - debug: OData query on xlsxTemplates
+2020-01-16T14:54:29.642Z - debug: OData query on schedules
+2020-01-16T14:54:29.651Z - debug: OData query on settings
+2020-01-16T14:54:29.816Z - debug: OData query on templates
+2020-01-16T14:54:29.831Z - debug: OData query on settings
+2020-01-16T14:54:44.248Z - debug: OData query on templates
+2020-01-16T16:13:06.856Z - info: Starting rendering request 2 (user: null)
+2020-01-16T16:13:06.859Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-16T16:13:06.859Z - debug: Inline data specified.
+2020-01-16T16:13:06.862Z - debug: Resources not defined for this template.
+2020-01-16T16:13:06.866Z - debug: Replaced assets ["colors.css"]
+2020-01-16T16:13:06.868Z - debug: Base url not specified, skipping its injection.
+2020-01-16T16:13:06.868Z - debug: Rendering engine handlebars
+2020-01-16T16:13:07.091Z - debug: Compiled template not found in the cache, compiling
+2020-01-16T16:13:07.093Z - debug: Executing recipe chrome-pdf
+2020-01-16T16:13:07.504Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-16T16:13:07.614Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-16T16:13:07.819Z - debug: Skipping storing report.
+2020-01-16T16:13:07.820Z - info: Rendering request 2 finished in 965 ms
+2020-01-16T16:13:33.438Z - debug: OData query on templates
+2020-01-16T16:13:33.440Z - debug: OData query on folders
+2020-01-16T16:13:33.444Z - debug: OData query on tags
+2020-01-16T16:13:33.447Z - debug: OData query on data
+2020-01-16T16:13:33.449Z - debug: OData query on scripts
+2020-01-16T16:13:33.451Z - debug: OData query on assets
+2020-01-16T16:13:33.461Z - debug: OData query on xlsxTemplates
+2020-01-16T16:13:33.462Z - debug: OData query on schedules
+2020-01-16T16:13:33.464Z - debug: OData query on settings
+2020-01-16T16:13:33.884Z - debug: OData query on templates
+2020-01-16T16:13:33.897Z - debug: OData query on settings
+2020-01-16T16:13:36.800Z - debug: OData query on templates
+2020-01-16T16:14:30.596Z - info: Starting rendering request 3 (user: null)
+2020-01-16T16:14:30.598Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-01-16T16:14:30.599Z - debug: Data item not defined for this template.
+2020-01-16T16:14:30.600Z - debug: Resources not defined for this template.
+2020-01-16T16:14:30.602Z - debug: Replaced assets ["colors.css"]
+2020-01-16T16:14:30.604Z - debug: Base url not specified, skipping its injection.
+2020-01-16T16:14:30.604Z - debug: Rendering engine handlebars
+2020-01-16T16:14:30.829Z - debug: Compiled template not found in the cache, compiling
+2020-01-16T16:14:30.831Z - debug: Executing recipe chrome-pdf
+2020-01-16T16:14:30.990Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-16T16:14:31.083Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-16T16:14:31.259Z - debug: Skipping storing report.
+2020-01-16T16:14:31.260Z - info: Rendering request 3 finished in 664 ms
+2020-01-16T16:15:45.607Z - info: Starting rendering request 4 (user: null)
+2020-01-16T16:15:45.609Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-16T16:15:45.610Z - debug: Inline data specified.
+2020-01-16T16:15:45.611Z - debug: Resources not defined for this template.
+2020-01-16T16:15:45.612Z - debug: Replaced assets ["colors.css"]
+2020-01-16T16:15:45.613Z - debug: Base url not specified, skipping its injection.
+2020-01-16T16:15:45.615Z - debug: Rendering engine handlebars
+2020-01-16T16:15:45.838Z - debug: Compiled template not found in the cache, compiling
+2020-01-16T16:15:45.839Z - debug: Executing recipe chrome-pdf
+2020-01-16T16:15:46.003Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-16T16:15:46.102Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-16T16:15:46.268Z - debug: Skipping storing report.
+2020-01-16T16:15:46.269Z - info: Rendering request 4 finished in 662 ms
+2020-01-16T16:16:52.292Z - debug: OData query on assets
+2020-01-16T16:17:28.723Z - debug: OData query on assets
+2020-01-16T16:17:34.895Z - debug: OData update on assets
+2020-01-16T16:17:34.924Z - debug: OData query on assets
+2020-01-16T16:17:40.485Z - info: Starting rendering request 5 (user: null)
+2020-01-16T16:17:40.487Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: false }
+2020-01-16T16:17:40.488Z - debug: Inline data specified.
+2020-01-16T16:17:40.489Z - debug: Resources not defined for this template.
+2020-01-16T16:17:40.490Z - debug: Replaced assets ["colors.css"]
+2020-01-16T16:17:40.492Z - debug: Base url not specified, skipping its injection.
+2020-01-16T16:17:40.492Z - debug: Rendering engine handlebars
+2020-01-16T16:17:40.719Z - debug: Compiled template not found in the cache, compiling
+2020-01-16T16:17:40.720Z - debug: Executing recipe chrome-pdf
+2020-01-16T16:17:40.901Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-16T16:17:41.009Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-16T16:17:41.206Z - debug: Skipping storing report.
+2020-01-16T16:17:41.207Z - info: Rendering request 5 finished in 723 ms
+2020-01-16T16:17:49.399Z - info: Starting rendering request 6 (user: null)
+2020-01-16T16:17:49.399Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-01-16T16:17:49.401Z - debug: Data item not defined for this template.
+2020-01-16T16:17:49.402Z - debug: Resources not defined for this template.
+2020-01-16T16:17:49.403Z - debug: Replaced assets ["colors.css"]
+2020-01-16T16:17:49.405Z - debug: Base url not specified, skipping its injection.
+2020-01-16T16:17:49.406Z - debug: Rendering engine handlebars
+2020-01-16T16:17:49.621Z - debug: Compiled template not found in the cache, compiling
+2020-01-16T16:17:49.623Z - debug: Executing recipe chrome-pdf
+2020-01-16T16:17:49.793Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-16T16:17:49.888Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-16T16:17:50.047Z - debug: Skipping storing report.
+2020-01-16T16:17:50.048Z - info: Rendering request 6 finished in 650 ms
+2020-01-16T16:18:01.856Z - debug: OData update on assets
+2020-01-16T16:18:01.876Z - debug: OData query on assets
+2020-01-16T16:18:03.685Z - info: Starting rendering request 7 (user: null)
+2020-01-16T16:18:03.687Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-01-16T16:18:03.687Z - debug: Data item not defined for this template.
+2020-01-16T16:18:03.689Z - debug: Resources not defined for this template.
+2020-01-16T16:18:03.691Z - debug: Replaced assets ["colors.css"]
+2020-01-16T16:18:03.692Z - debug: Base url not specified, skipping its injection.
+2020-01-16T16:18:03.693Z - debug: Rendering engine handlebars
+2020-01-16T16:18:03.901Z - debug: Compiled template not found in the cache, compiling
+2020-01-16T16:18:03.902Z - debug: Executing recipe chrome-pdf
+2020-01-16T16:18:04.010Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-16T16:18:04.186Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-16T16:18:04.357Z - debug: Skipping storing report.
+2020-01-16T16:18:04.358Z - info: Rendering request 7 finished in 674 ms
+2020-01-16T16:18:08.508Z - debug: OData update on assets
+2020-01-16T16:18:08.528Z - debug: OData query on assets
+2020-01-16T16:18:10.004Z - info: Starting rendering request 8 (user: null)
+2020-01-16T16:18:10.004Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-01-16T16:18:10.006Z - debug: Data item not defined for this template.
+2020-01-16T16:18:10.007Z - debug: Resources not defined for this template.
+2020-01-16T16:18:10.008Z - debug: Replaced assets ["colors.css"]
+2020-01-16T16:18:10.011Z - debug: Base url not specified, skipping its injection.
+2020-01-16T16:18:10.013Z - debug: Rendering engine handlebars
+2020-01-16T16:18:10.230Z - debug: Compiled template not found in the cache, compiling
+2020-01-16T16:18:10.231Z - debug: Executing recipe chrome-pdf
+2020-01-16T16:18:10.414Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-16T16:18:10.508Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-16T16:18:10.667Z - debug: Skipping storing report.
+2020-01-16T16:18:10.668Z - info: Rendering request 8 finished in 666 ms
+2020-01-16T16:18:51.580Z - debug: OData update on assets
+2020-01-16T16:18:51.600Z - debug: OData query on assets
+2020-01-16T16:18:52.986Z - info: Starting rendering request 9 (user: null)
+2020-01-16T16:18:52.987Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-01-16T16:18:52.989Z - debug: Data item not defined for this template.
+2020-01-16T16:18:52.991Z - debug: Resources not defined for this template.
+2020-01-16T16:18:52.993Z - debug: Replaced assets ["colors.css"]
+2020-01-16T16:18:52.995Z - debug: Base url not specified, skipping its injection.
+2020-01-16T16:18:52.997Z - debug: Rendering engine handlebars
+2020-01-16T16:18:53.208Z - debug: Compiled template not found in the cache, compiling
+2020-01-16T16:18:53.209Z - debug: Executing recipe chrome-pdf
+2020-01-16T16:18:53.378Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-16T16:18:53.472Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-16T16:18:53.643Z - debug: Skipping storing report.
+2020-01-16T16:18:53.644Z - info: Rendering request 9 finished in 658 ms
+2020-01-16T16:19:36.440Z - debug: OData update on assets
+2020-01-16T16:19:36.461Z - debug: OData query on assets
+2020-01-16T16:19:37.913Z - info: Starting rendering request 10 (user: null)
+2020-01-16T16:19:37.915Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-01-16T16:19:37.917Z - debug: Data item not defined for this template.
+2020-01-16T16:19:37.917Z - debug: Resources not defined for this template.
+2020-01-16T16:19:37.919Z - debug: Replaced assets ["colors.css"]
+2020-01-16T16:19:37.920Z - debug: Base url not specified, skipping its injection.
+2020-01-16T16:19:37.922Z - debug: Rendering engine handlebars
+2020-01-16T16:19:38.139Z - debug: Compiled template not found in the cache, compiling
+2020-01-16T16:19:38.141Z - debug: Executing recipe chrome-pdf
+2020-01-16T16:19:38.257Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-16T16:19:38.406Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-16T16:19:38.569Z - debug: Skipping storing report.
+2020-01-16T16:19:38.570Z - info: Rendering request 10 finished in 656 ms
+2020-01-16T16:21:00.121Z - debug: OData query on assets
+2020-01-16T16:21:45.920Z - debug: fs store sync is triggering reload, because C:\Users\AlumnadoTarde\Desktop\jsreport\data\Carlos\ITC_icon_login.png was changed by other process
+2020-01-16T16:21:45.921Z - info: fs store is loading data
+2020-01-16T16:21:45.946Z - debug: Sending external-modification socket to the studio
+2020-01-16T16:21:46.000Z - debug: OData query on templates
+2020-01-16T16:21:46.170Z - info: Starting rendering request 11 (user: null)
+2020-01-16T16:21:46.171Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-01-16T16:21:46.171Z - debug: Data item not defined for this template.
+2020-01-16T16:21:46.172Z - debug: Resources not defined for this template.
+2020-01-16T16:21:46.174Z - debug: Replaced assets ["colors.css"]
+2020-01-16T16:21:46.175Z - debug: Base url not specified, skipping its injection.
+2020-01-16T16:21:46.176Z - debug: Rendering engine handlebars
+2020-01-16T16:21:46.375Z - debug: Compiled template not found in the cache, compiling
+2020-01-16T16:21:46.375Z - debug: Executing recipe chrome-pdf
+2020-01-16T16:21:46.492Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-16T16:21:46.601Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-16T16:21:46.791Z - debug: Skipping storing report.
+2020-01-16T16:21:46.792Z - info: Rendering request 11 finished in 622 ms
+2020-01-16T16:22:44.772Z - debug: OData insert into assets
+2020-01-16T16:22:44.777Z - error: Error when processing OData POST: /odata/assets Error: Unable to find or read file C:\Users\AlumnadoTarde\Desktop\jsreport\Carlos\ITC_icon_login.png. ENOENT: no such file or directory, open 'C:\Users\AlumnadoTarde\Desktop\jsreport\Carlos\ITC_icon_login.png'
+    at module.exports (C:\Users\AlumnadoTarde\Desktop\jsreport\node_modules\jsreport-core\lib\util\createError.js:11:13)
+    at Reporter.createError (C:\Users\AlumnadoTarde\Desktop\jsreport\node_modules\jsreport-core\lib\reporter.js:299:12)
+    at readFile (C:\Users\AlumnadoTarde\Desktop\jsreport\node_modules\jsreport-assets\lib\assets.js:115:20)
+caused by: Error: ENOENT: no such file or directory, open 'C:\Users\AlumnadoTarde\Desktop\jsreport\Carlos\ITC_icon_login.png'
+2020-01-16T16:23:07.929Z - debug: OData insert into assets
+2020-01-16T16:23:08.016Z - debug: OData query on assets
+2020-01-16T16:23:08.093Z - debug: OData update on assets
+2020-01-16T16:23:08.169Z - debug: OData query on assets
+2020-01-16T16:23:16.047Z - debug: OData query on assets
+2020-01-16T16:23:18.723Z - debug: OData query on assets
+2020-01-16T16:23:38.528Z - debug: OData query on templates
+2020-01-16T16:24:06.552Z - debug: OData update on templates
+2020-01-16T16:24:06.572Z - debug: OData query on templates
+2020-01-16T16:24:08.085Z - info: Starting rendering request 12 (user: null)
+2020-01-16T16:24:08.087Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-01-16T16:24:08.088Z - debug: Data item not defined for this template.
+2020-01-16T16:24:08.089Z - debug: Resources not defined for this template.
+2020-01-16T16:24:08.095Z - warn: Error when processing render request Unable to find or read file C:\Users\AlumnadoTarde\Desktop\jsreport\data\Carlos\ITC_icon_login.png. EISDIR: illegal operation on a directory, read Error: Unable to find or read file C:\Users\AlumnadoTarde\Desktop\jsreport\data\Carlos\ITC_icon_login.png. EISDIR: illegal operation on a directory, read
+    at module.exports (C:\Users\AlumnadoTarde\Desktop\jsreport\node_modules\jsreport-core\lib\util\createError.js:11:13)
+    at Reporter.createError (C:\Users\AlumnadoTarde\Desktop\jsreport\node_modules\jsreport-core\lib\reporter.js:299:12)
+    at readFile (C:\Users\AlumnadoTarde\Desktop\jsreport\node_modules\jsreport-assets\lib\assets.js:115:20)
+caused by: Error: EISDIR: illegal operation on a directory, read
+2020-01-16T16:24:08.096Z - warn: Error during processing request at http://localhost:5488/api/report/colors
+2020-01-16T16:25:13.693Z - debug: OData update on templates
+2020-01-16T16:25:13.709Z - debug: OData query on templates
+2020-01-16T16:25:17.300Z - info: Starting rendering request 13 (user: null)
+2020-01-16T16:25:17.301Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-01-16T16:25:17.302Z - debug: Data item not defined for this template.
+2020-01-16T16:25:17.303Z - debug: Resources not defined for this template.
+2020-01-16T16:25:17.305Z - debug: Replaced assets ["colors.css"]
+2020-01-16T16:25:17.306Z - debug: Base url not specified, skipping its injection.
+2020-01-16T16:25:17.306Z - debug: Rendering engine handlebars
+2020-01-16T16:25:17.528Z - debug: Compiled template not found in the cache, compiling
+2020-01-16T16:25:17.529Z - debug: Executing recipe chrome-pdf
+2020-01-16T16:25:17.725Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-16T16:25:17.820Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-16T16:25:18.038Z - debug: Skipping storing report.
+2020-01-16T16:25:18.039Z - info: Rendering request 13 finished in 739 ms
+2020-01-16T16:25:33.717Z - debug: OData update on templates
+2020-01-16T16:25:33.734Z - debug: OData query on templates
+2020-01-16T16:25:38.082Z - info: Starting rendering request 14 (user: null)
+2020-01-16T16:25:38.083Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-01-16T16:25:38.084Z - debug: Data item not defined for this template.
+2020-01-16T16:25:38.085Z - debug: Resources not defined for this template.
+2020-01-16T16:25:38.090Z - warn: Error when processing render request Unable to find or read file C:\Users\AlumnadoTarde\Desktop\jsreport\data\Carlos\ITC_icon_login.png. EISDIR: illegal operation on a directory, read Error: Unable to find or read file C:\Users\AlumnadoTarde\Desktop\jsreport\data\Carlos\ITC_icon_login.png. EISDIR: illegal operation on a directory, read
+    at module.exports (C:\Users\AlumnadoTarde\Desktop\jsreport\node_modules\jsreport-core\lib\util\createError.js:11:13)
+    at Reporter.createError (C:\Users\AlumnadoTarde\Desktop\jsreport\node_modules\jsreport-core\lib\reporter.js:299:12)
+    at readFile (C:\Users\AlumnadoTarde\Desktop\jsreport\node_modules\jsreport-assets\lib\assets.js:115:20)
+caused by: Error: EISDIR: illegal operation on a directory, read
+2020-01-16T16:25:38.090Z - warn: Error during processing request at http://localhost:5488/api/report/colors
+2020-01-16T16:25:47.972Z - debug: OData update on templates
+2020-01-16T16:25:47.987Z - debug: OData query on templates
+2020-01-16T16:25:52.712Z - debug: OData remove from assets
+2020-01-16T16:25:54.634Z - info: Starting rendering request 15 (user: null)
+2020-01-16T16:25:54.636Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-01-16T16:25:54.638Z - debug: Data item not defined for this template.
+2020-01-16T16:25:54.638Z - debug: Resources not defined for this template.
+2020-01-16T16:25:54.640Z - debug: Replaced assets ["colors.css"]
+2020-01-16T16:25:54.642Z - debug: Base url not specified, skipping its injection.
+2020-01-16T16:25:54.643Z - debug: Rendering engine handlebars
+2020-01-16T16:25:54.876Z - debug: Compiled template not found in the cache, compiling
+2020-01-16T16:25:54.877Z - debug: Executing recipe chrome-pdf
+2020-01-16T16:25:55.036Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-16T16:25:55.128Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-16T16:25:55.291Z - debug: Skipping storing report.
+2020-01-16T16:25:55.292Z - info: Rendering request 15 finished in 658 ms
+2020-01-16T16:28:05.729Z - debug: fs store sync is triggering reload, because C:\Users\AlumnadoTarde\Desktop\jsreport\data\Carlos\Nueva carpeta was changed by other process
+2020-01-16T16:28:05.730Z - info: fs store is loading data
+2020-01-16T16:28:05.747Z - debug: Sending external-modification socket to the studio
+2020-01-16T16:28:05.799Z - debug: OData query on templates
+2020-01-16T16:28:05.894Z - info: Starting rendering request 16 (user: null)
+2020-01-16T16:28:05.896Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-01-16T16:28:05.897Z - debug: Data item not defined for this template.
+2020-01-16T16:28:05.898Z - debug: Resources not defined for this template.
+2020-01-16T16:28:05.899Z - debug: Replaced assets ["colors.css"]
+2020-01-16T16:28:05.901Z - debug: Base url not specified, skipping its injection.
+2020-01-16T16:28:05.902Z - debug: Rendering engine handlebars
+2020-01-16T16:28:06.105Z - debug: Compiled template not found in the cache, compiling
+2020-01-16T16:28:06.106Z - debug: Executing recipe chrome-pdf
+2020-01-16T16:28:06.276Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-16T16:28:06.370Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-16T16:28:06.642Z - debug: Skipping storing report.
+2020-01-16T16:28:06.643Z - info: Rendering request 16 finished in 749 ms
+2020-01-16T16:28:25.407Z - debug: fs store sync is triggering reload, because C:\Users\AlumnadoTarde\Desktop\jsreport\data\Carlos\itc_logo.png\config.json was changed by other process
+2020-01-16T16:28:25.408Z - info: fs store is loading data
+2020-01-16T16:28:25.423Z - debug: Sending external-modification socket to the studio
+2020-01-16T16:28:25.463Z - debug: OData query on templates
+2020-01-16T16:28:25.559Z - info: Starting rendering request 17 (user: null)
+2020-01-16T16:28:25.560Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-01-16T16:28:25.561Z - debug: Data item not defined for this template.
+2020-01-16T16:28:25.561Z - debug: Resources not defined for this template.
+2020-01-16T16:28:25.564Z - debug: Replaced assets ["colors.css"]
+2020-01-16T16:28:25.565Z - debug: Base url not specified, skipping its injection.
+2020-01-16T16:28:25.565Z - debug: Rendering engine handlebars
+2020-01-16T16:28:25.783Z - debug: Compiled template not found in the cache, compiling
+2020-01-16T16:28:25.784Z - debug: Executing recipe chrome-pdf
+2020-01-16T16:28:25.948Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-16T16:28:26.045Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-16T16:28:26.210Z - debug: Skipping storing report.
+2020-01-16T16:28:26.211Z - info: Rendering request 17 finished in 651 ms
+2020-01-16T16:29:50.295Z - debug: fs store sync is triggering reload, because C:\Users\AlumnadoTarde\Desktop\jsreport\data\Carlos\itc_logo.png\ITC_icon_login.png was changed by other process
+2020-01-16T16:29:50.296Z - info: fs store is loading data
+2020-01-16T16:29:50.309Z - debug: Sending external-modification socket to the studio
+2020-01-16T16:29:50.348Z - debug: OData query on templates
+2020-01-16T16:29:50.444Z - info: Starting rendering request 18 (user: null)
+2020-01-16T16:29:50.445Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-01-16T16:29:50.446Z - debug: Data item not defined for this template.
+2020-01-16T16:29:50.447Z - debug: Resources not defined for this template.
+2020-01-16T16:29:50.449Z - debug: Replaced assets ["colors.css"]
+2020-01-16T16:29:50.450Z - debug: Base url not specified, skipping its injection.
+2020-01-16T16:29:50.451Z - debug: Rendering engine handlebars
+2020-01-16T16:29:50.696Z - debug: Compiled template not found in the cache, compiling
+2020-01-16T16:29:50.697Z - debug: Executing recipe chrome-pdf
+2020-01-16T16:29:50.830Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-16T16:29:50.958Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-16T16:29:51.157Z - debug: Skipping storing report.
+2020-01-16T16:29:51.157Z - info: Rendering request 18 finished in 714 ms
+2020-01-16T16:29:55.105Z - debug: fs store sync is triggering reload, because C:\Users\AlumnadoTarde\Desktop\jsreport\data\Carlos\itc_logo.png\content.png was changed by other process
+2020-01-16T16:29:55.106Z - info: fs store is loading data
+2020-01-16T16:29:55.118Z - debug: Sending external-modification socket to the studio
+2020-01-16T16:29:55.151Z - debug: OData query on templates
+2020-01-16T16:29:55.242Z - info: Starting rendering request 19 (user: null)
+2020-01-16T16:29:55.244Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-01-16T16:29:55.244Z - debug: Data item not defined for this template.
+2020-01-16T16:29:55.245Z - debug: Resources not defined for this template.
+2020-01-16T16:29:55.248Z - debug: Replaced assets ["colors.css"]
+2020-01-16T16:29:55.249Z - debug: Base url not specified, skipping its injection.
+2020-01-16T16:29:55.250Z - debug: Rendering engine handlebars
+2020-01-16T16:29:55.474Z - debug: Compiled template not found in the cache, compiling
+2020-01-16T16:29:55.475Z - debug: Executing recipe chrome-pdf
+2020-01-16T16:29:55.641Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-16T16:29:55.745Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-16T16:29:55.902Z - debug: Skipping storing report.
+2020-01-16T16:29:55.903Z - info: Rendering request 19 finished in 661 ms
+2020-01-16T16:32:04.501Z - debug: fs store sync is triggering reload, because C:\Users\AlumnadoTarde\Desktop\jsreport\data\Carlos\itc_logo.png\config.json was changed by other process
+2020-01-16T16:32:04.503Z - info: fs store is loading data
+2020-01-16T16:32:04.524Z - debug: Sending external-modification socket to the studio
+2020-01-16T16:32:04.560Z - debug: OData query on templates
+2020-01-16T16:32:04.689Z - info: Starting rendering request 20 (user: null)
+2020-01-16T16:32:04.690Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-01-16T16:32:04.691Z - debug: Data item not defined for this template.
+2020-01-16T16:32:04.693Z - debug: Resources not defined for this template.
+2020-01-16T16:32:04.697Z - debug: Replaced assets ["colors.css"]
+2020-01-16T16:32:04.707Z - debug: Base url not specified, skipping its injection.
+2020-01-16T16:32:04.708Z - debug: Rendering engine handlebars
+2020-01-16T16:32:04.984Z - debug: Compiled template not found in the cache, compiling
+2020-01-16T16:32:04.985Z - debug: Executing recipe chrome-pdf
+2020-01-16T16:32:05.199Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-16T16:32:05.303Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-16T16:32:05.510Z - debug: Skipping storing report.
+2020-01-16T16:32:05.510Z - info: Rendering request 20 finished in 821 ms
+2020-01-16T16:32:45.019Z - debug: OData insert into assets
+2020-01-16T16:32:45.024Z - error: Error when processing OData POST: /odata/assets Error: Unable to find or read file C:\Users\AlumnadoTarde\Desktop\jsreport\data\Carlos\itc_logo.png. EISDIR: illegal operation on a directory, read
+    at module.exports (C:\Users\AlumnadoTarde\Desktop\jsreport\node_modules\jsreport-core\lib\util\createError.js:11:13)
+    at Reporter.createError (C:\Users\AlumnadoTarde\Desktop\jsreport\node_modules\jsreport-core\lib\reporter.js:299:12)
+    at readFile (C:\Users\AlumnadoTarde\Desktop\jsreport\node_modules\jsreport-assets\lib\assets.js:115:20)
+caused by: Error: EISDIR: illegal operation on a directory, read
+2020-01-16T16:32:56.544Z - debug: fs store sync is triggering reload, because C:\Users\AlumnadoTarde\Desktop\jsreport\data\Carlos\itc_logo.png was changed by other process
+2020-01-16T16:32:56.545Z - info: fs store is loading data
+2020-01-16T16:32:56.561Z - debug: Sending external-modification socket to the studio
+2020-01-16T16:32:56.602Z - debug: OData query on templates
+2020-01-16T16:32:56.683Z - info: Starting rendering request 21 (user: null)
+2020-01-16T16:32:56.684Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-01-16T16:32:56.685Z - debug: Data item not defined for this template.
+2020-01-16T16:32:56.686Z - debug: Resources not defined for this template.
+2020-01-16T16:32:56.687Z - debug: Replaced assets ["colors.css"]
+2020-01-16T16:32:56.688Z - debug: Base url not specified, skipping its injection.
+2020-01-16T16:32:56.688Z - debug: Rendering engine handlebars
+2020-01-16T16:32:56.888Z - debug: Compiled template not found in the cache, compiling
+2020-01-16T16:32:56.889Z - debug: Executing recipe chrome-pdf
+2020-01-16T16:32:57.009Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-16T16:32:57.151Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-16T16:32:57.303Z - debug: Skipping storing report.
+2020-01-16T16:32:57.304Z - info: Rendering request 21 finished in 620 ms
+2020-01-16T16:33:17.455Z - debug: OData insert into assets
+2020-01-16T16:33:17.530Z - debug: OData query on assets
+2020-01-16T16:33:45.085Z - debug: fs store sync is triggering reload, because C:\Users\AlumnadoTarde\Desktop\jsreport\data\itc-logo.png\ITC_icon_login.png was changed by other process
+2020-01-16T16:33:45.086Z - info: fs store is loading data
+2020-01-16T16:33:45.104Z - debug: Sending external-modification socket to the studio
+2020-01-16T16:33:45.138Z - debug: OData query on templates
+2020-01-16T16:33:45.293Z - info: Starting rendering request 22 (user: null)
+2020-01-16T16:33:45.297Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-01-16T16:33:45.317Z - debug: Data item not defined for this template.
+2020-01-16T16:33:45.317Z - debug: Resources not defined for this template.
+2020-01-16T16:33:45.321Z - debug: Replaced assets ["colors.css"]
+2020-01-16T16:33:45.323Z - debug: Base url not specified, skipping its injection.
+2020-01-16T16:33:45.324Z - debug: Rendering engine handlebars
+2020-01-16T16:33:45.595Z - debug: Compiled template not found in the cache, compiling
+2020-01-16T16:33:45.595Z - debug: Executing recipe chrome-pdf
+2020-01-16T16:33:45.853Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-16T16:33:45.991Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-16T16:33:46.376Z - debug: Skipping storing report.
+2020-01-16T16:33:46.377Z - info: Rendering request 22 finished in 1086 ms
+2020-01-16T16:33:56.198Z - debug: fs store sync is triggering reload, because C:\Users\AlumnadoTarde\Desktop\jsreport\data\itc-logo.png\ITC_icon_login.png was changed by other process
+2020-01-16T16:33:56.198Z - info: fs store is loading data
+2020-01-16T16:33:56.219Z - debug: Sending external-modification socket to the studio
+2020-01-16T16:33:56.271Z - debug: OData query on templates
+2020-01-16T16:33:56.359Z - info: Starting rendering request 23 (user: null)
+2020-01-16T16:33:56.360Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-01-16T16:33:56.361Z - debug: Data item not defined for this template.
+2020-01-16T16:33:56.361Z - debug: Resources not defined for this template.
+2020-01-16T16:33:56.363Z - debug: Replaced assets ["colors.css"]
+2020-01-16T16:33:56.364Z - debug: Base url not specified, skipping its injection.
+2020-01-16T16:33:56.365Z - debug: Rendering engine handlebars
+2020-01-16T16:33:56.569Z - debug: Compiled template not found in the cache, compiling
+2020-01-16T16:33:56.570Z - debug: Executing recipe chrome-pdf
+2020-01-16T16:33:56.732Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-16T16:33:56.820Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-16T16:33:56.998Z - debug: Skipping storing report.
+2020-01-16T16:33:56.998Z - info: Rendering request 23 finished in 640 ms
+2020-01-16T16:34:01.005Z - debug: fs store sync is triggering reload, because C:\Users\AlumnadoTarde\Desktop\jsreport\data\itc-logo.png\content.png was changed by other process
+2020-01-16T16:34:01.006Z - info: fs store is loading data
+2020-01-16T16:34:01.022Z - debug: Sending external-modification socket to the studio
+2020-01-16T16:34:01.059Z - debug: OData query on templates
+2020-01-16T16:34:01.169Z - info: Starting rendering request 24 (user: null)
+2020-01-16T16:34:01.170Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-01-16T16:34:01.172Z - debug: Data item not defined for this template.
+2020-01-16T16:34:01.173Z - debug: Resources not defined for this template.
+2020-01-16T16:34:01.176Z - debug: Replaced assets ["colors.css"]
+2020-01-16T16:34:01.177Z - debug: Base url not specified, skipping its injection.
+2020-01-16T16:34:01.178Z - debug: Rendering engine handlebars
+2020-01-16T16:34:01.424Z - debug: Compiled template not found in the cache, compiling
+2020-01-16T16:34:01.425Z - debug: Executing recipe chrome-pdf
+2020-01-16T16:34:01.531Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-16T16:34:01.663Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-16T16:34:01.823Z - debug: Skipping storing report.
+2020-01-16T16:34:01.824Z - info: Rendering request 24 finished in 658 ms
+2020-01-16T16:34:27.551Z - debug: OData query on assets
+2020-01-16T16:35:09.048Z - debug: OData query on templates
+2020-01-16T16:35:48.614Z - debug: OData update on templates
+2020-01-16T16:35:48.635Z - debug: OData query on templates
+2020-01-16T16:35:49.761Z - info: Starting rendering request 25 (user: null)
+2020-01-16T16:35:49.763Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-01-16T16:35:49.763Z - debug: Data item not defined for this template.
+2020-01-16T16:35:49.766Z - debug: Resources not defined for this template.
+2020-01-16T16:35:49.768Z - debug: Replaced assets ["colors.css","itc-logo.png"]
+2020-01-16T16:35:49.771Z - debug: Base url not specified, skipping its injection.
+2020-01-16T16:35:49.773Z - debug: Rendering engine handlebars
+2020-01-16T16:35:50.024Z - debug: Compiled template not found in the cache, compiling
+2020-01-16T16:35:50.025Z - debug: Executing recipe chrome-pdf
+2020-01-16T16:35:50.141Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-16T16:35:50.307Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-16T16:35:50.483Z - debug: Skipping storing report.
+2020-01-16T16:35:50.483Z - info: Rendering request 25 finished in 724 ms
+2020-01-16T16:35:59.213Z - debug: OData update on templates
+2020-01-16T16:35:59.234Z - debug: OData query on templates
+2020-01-16T16:36:06.354Z - debug: OData update on templates
+2020-01-16T16:36:06.374Z - debug: OData query on templates
+2020-01-16T16:36:23.586Z - debug: OData update on assets
+2020-01-16T16:36:23.627Z - debug: OData query on assets
+2020-01-16T16:36:29.023Z - debug: OData update on assets
+2020-01-16T16:36:29.043Z - debug: OData query on assets
+2020-01-16T16:36:30.568Z - info: Starting rendering request 26 (user: null)
+2020-01-16T16:36:30.570Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-01-16T16:36:30.570Z - debug: Data item not defined for this template.
+2020-01-16T16:36:30.571Z - debug: Resources not defined for this template.
+2020-01-16T16:36:30.575Z - debug: Replaced assets ["colors.css","itc-logo.png"]
+2020-01-16T16:36:30.576Z - debug: Base url not specified, skipping its injection.
+2020-01-16T16:36:30.578Z - debug: Rendering engine handlebars
+2020-01-16T16:36:30.805Z - debug: Compiled template not found in the cache, compiling
+2020-01-16T16:36:30.806Z - debug: Executing recipe chrome-pdf
+2020-01-16T16:36:30.992Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-16T16:36:31.100Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-16T16:36:31.268Z - debug: Skipping storing report.
+2020-01-16T16:36:31.269Z - info: Rendering request 26 finished in 701 ms
+2020-01-16T16:36:35.752Z - debug: OData update on assets
+2020-01-16T16:36:35.772Z - debug: OData query on assets
+2020-01-16T16:36:46.133Z - debug: OData update on assets
+2020-01-16T16:36:46.153Z - debug: OData query on assets
+2020-01-16T16:36:47.700Z - info: Starting rendering request 27 (user: null)
+2020-01-16T16:36:47.701Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-01-16T16:36:47.702Z - debug: Data item not defined for this template.
+2020-01-16T16:36:47.703Z - debug: Resources not defined for this template.
+2020-01-16T16:36:47.705Z - debug: Replaced assets ["colors.css","itc-logo.png"]
+2020-01-16T16:36:47.707Z - debug: Base url not specified, skipping its injection.
+2020-01-16T16:36:47.707Z - debug: Rendering engine handlebars
+2020-01-16T16:36:47.932Z - debug: Compiled template not found in the cache, compiling
+2020-01-16T16:36:47.934Z - debug: Executing recipe chrome-pdf
+2020-01-16T16:36:48.052Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-16T16:36:48.196Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-16T16:36:48.373Z - debug: Skipping storing report.
+2020-01-16T16:36:48.374Z - info: Rendering request 27 finished in 673 ms
+2020-01-16T16:36:58.625Z - debug: OData update on assets
+2020-01-16T16:36:58.648Z - debug: OData query on assets
+2020-01-16T16:37:00.662Z - debug: OData update on assets
+2020-01-16T16:37:00.681Z - debug: OData query on assets
+2020-01-16T16:37:01.895Z - info: Starting rendering request 28 (user: null)
+2020-01-16T16:37:01.896Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-01-16T16:37:01.897Z - debug: Data item not defined for this template.
+2020-01-16T16:37:01.899Z - debug: Resources not defined for this template.
+2020-01-16T16:37:01.901Z - debug: Replaced assets ["colors.css","itc-logo.png"]
+2020-01-16T16:37:01.902Z - debug: Base url not specified, skipping its injection.
+2020-01-16T16:37:01.903Z - debug: Rendering engine handlebars
+2020-01-16T16:37:02.103Z - debug: Compiled template not found in the cache, compiling
+2020-01-16T16:37:02.104Z - debug: Executing recipe chrome-pdf
+2020-01-16T16:37:02.260Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-16T16:37:02.392Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-16T16:37:02.574Z - debug: Skipping storing report.
+2020-01-16T16:37:02.574Z - info: Rendering request 28 finished in 681 ms
+2020-01-16T16:37:17.371Z - debug: OData update on assets
+2020-01-16T16:37:17.392Z - debug: OData query on assets
+2020-01-16T16:37:18.840Z - info: Starting rendering request 29 (user: null)
+2020-01-16T16:37:18.842Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-01-16T16:37:18.842Z - debug: Data item not defined for this template.
+2020-01-16T16:37:18.843Z - debug: Resources not defined for this template.
+2020-01-16T16:37:18.847Z - debug: Replaced assets ["colors.css","itc-logo.png"]
+2020-01-16T16:37:18.848Z - debug: Base url not specified, skipping its injection.
+2020-01-16T16:37:18.850Z - debug: Rendering engine handlebars
+2020-01-16T16:37:19.074Z - debug: Compiled template not found in the cache, compiling
+2020-01-16T16:37:19.075Z - debug: Executing recipe chrome-pdf
+2020-01-16T16:37:19.234Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-16T16:37:19.334Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-16T16:37:19.513Z - debug: Skipping storing report.
+2020-01-16T16:37:19.513Z - info: Rendering request 29 finished in 673 ms
+2020-01-16T16:37:24.929Z - debug: OData update on assets
+2020-01-16T16:37:24.949Z - debug: OData query on assets
+2020-01-16T16:37:26.153Z - info: Starting rendering request 30 (user: null)
+2020-01-16T16:37:26.154Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-01-16T16:37:26.156Z - debug: Data item not defined for this template.
+2020-01-16T16:37:26.157Z - debug: Resources not defined for this template.
+2020-01-16T16:37:26.161Z - debug: Replaced assets ["colors.css","itc-logo.png"]
+2020-01-16T16:37:26.163Z - debug: Base url not specified, skipping its injection.
+2020-01-16T16:37:26.163Z - debug: Rendering engine handlebars
+2020-01-16T16:37:26.370Z - debug: Compiled template not found in the cache, compiling
+2020-01-16T16:37:26.371Z - debug: Executing recipe chrome-pdf
+2020-01-16T16:37:26.529Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-16T16:37:26.635Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-16T16:37:26.799Z - debug: Skipping storing report.
+2020-01-16T16:37:26.799Z - info: Rendering request 30 finished in 646 ms
+2020-01-16T16:37:31.951Z - debug: OData update on assets
+2020-01-16T16:37:31.970Z - debug: OData query on assets
+2020-01-16T16:37:33.178Z - info: Starting rendering request 31 (user: null)
+2020-01-16T16:37:33.180Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-01-16T16:37:33.181Z - debug: Data item not defined for this template.
+2020-01-16T16:37:33.182Z - debug: Resources not defined for this template.
+2020-01-16T16:37:33.184Z - debug: Replaced assets ["colors.css","itc-logo.png"]
+2020-01-16T16:37:33.186Z - debug: Base url not specified, skipping its injection.
+2020-01-16T16:37:33.186Z - debug: Rendering engine handlebars
+2020-01-16T16:37:33.401Z - debug: Compiled template not found in the cache, compiling
+2020-01-16T16:37:33.402Z - debug: Executing recipe chrome-pdf
+2020-01-16T16:37:33.576Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-16T16:37:33.680Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-16T16:37:33.852Z - debug: Skipping storing report.
+2020-01-16T16:37:33.853Z - info: Rendering request 31 finished in 675 ms
+2020-01-16T16:37:38.159Z - debug: OData update on assets
+2020-01-16T16:37:38.180Z - debug: OData query on assets
+2020-01-16T16:37:39.641Z - info: Starting rendering request 32 (user: null)
+2020-01-16T16:37:39.643Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-01-16T16:37:39.643Z - debug: Data item not defined for this template.
+2020-01-16T16:37:39.645Z - debug: Resources not defined for this template.
+2020-01-16T16:37:39.648Z - debug: Replaced assets ["colors.css","itc-logo.png"]
+2020-01-16T16:37:39.650Z - debug: Base url not specified, skipping its injection.
+2020-01-16T16:37:39.651Z - debug: Rendering engine handlebars
+2020-01-16T16:37:39.862Z - debug: Compiled template not found in the cache, compiling
+2020-01-16T16:37:39.863Z - debug: Executing recipe chrome-pdf
+2020-01-16T16:37:40.048Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-16T16:37:40.163Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-16T16:37:40.344Z - debug: Skipping storing report.
+2020-01-16T16:37:40.345Z - info: Rendering request 32 finished in 703 ms
+2020-01-16T16:37:44.599Z - debug: OData update on assets
+2020-01-16T16:37:44.618Z - debug: OData query on assets
+2020-01-16T16:37:45.506Z - info: Starting rendering request 33 (user: null)
+2020-01-16T16:37:45.509Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-01-16T16:37:45.509Z - debug: Data item not defined for this template.
+2020-01-16T16:37:45.510Z - debug: Resources not defined for this template.
+2020-01-16T16:37:45.512Z - debug: Replaced assets ["colors.css","itc-logo.png"]
+2020-01-16T16:37:45.513Z - debug: Base url not specified, skipping its injection.
+2020-01-16T16:37:45.514Z - debug: Rendering engine handlebars
+2020-01-16T16:37:45.782Z - debug: Compiled template not found in the cache, compiling
+2020-01-16T16:37:45.783Z - debug: Executing recipe chrome-pdf
+2020-01-16T16:37:45.956Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-16T16:37:46.054Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-16T16:37:46.229Z - debug: Skipping storing report.
+2020-01-16T16:37:46.229Z - info: Rendering request 33 finished in 724 ms
+2020-01-16T16:38:00.207Z - debug: OData update on assets
+2020-01-16T16:38:00.229Z - debug: OData query on assets
+2020-01-16T16:38:01.364Z - info: Starting rendering request 34 (user: null)
+2020-01-16T16:38:01.366Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-01-16T16:38:01.368Z - debug: Data item not defined for this template.
+2020-01-16T16:38:01.369Z - debug: Resources not defined for this template.
+2020-01-16T16:38:01.372Z - debug: Replaced assets ["colors.css","itc-logo.png"]
+2020-01-16T16:38:01.377Z - debug: Base url not specified, skipping its injection.
+2020-01-16T16:38:01.379Z - debug: Rendering engine handlebars
+2020-01-16T16:38:01.621Z - debug: Compiled template not found in the cache, compiling
+2020-01-16T16:38:01.623Z - debug: Executing recipe chrome-pdf
+2020-01-16T16:38:01.674Z - info: Starting rendering request 35 (user: null)
+2020-01-16T16:38:01.675Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-01-16T16:38:01.676Z - debug: Data item not defined for this template.
+2020-01-16T16:38:01.677Z - debug: Resources not defined for this template.
+2020-01-16T16:38:01.679Z - debug: Replaced assets ["colors.css","itc-logo.png"]
+2020-01-16T16:38:01.680Z - debug: Base url not specified, skipping its injection.
+2020-01-16T16:38:01.682Z - debug: Rendering engine handlebars
+2020-01-16T16:38:01.821Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-16T16:38:01.935Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-16T16:38:02.109Z - debug: Compiled template not found in the cache, compiling
+2020-01-16T16:38:02.110Z - debug: Executing recipe chrome-pdf
+2020-01-16T16:38:02.145Z - debug: Skipping storing report.
+2020-01-16T16:38:02.146Z - info: Rendering request 34 finished in 782 ms
+2020-01-16T16:38:02.268Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-16T16:38:02.374Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-16T16:38:02.565Z - debug: Skipping storing report.
+2020-01-16T16:38:02.565Z - info: Rendering request 35 finished in 892 ms
+2020-01-16T16:38:06.798Z - debug: OData update on assets
+2020-01-16T16:38:06.818Z - debug: OData query on assets
+2020-01-16T16:38:07.674Z - info: Starting rendering request 36 (user: null)
+2020-01-16T16:38:07.675Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-01-16T16:38:07.676Z - debug: Data item not defined for this template.
+2020-01-16T16:38:07.677Z - debug: Resources not defined for this template.
+2020-01-16T16:38:07.680Z - debug: Replaced assets ["colors.css","itc-logo.png"]
+2020-01-16T16:38:07.681Z - debug: Base url not specified, skipping its injection.
+2020-01-16T16:38:07.683Z - debug: Rendering engine handlebars
+2020-01-16T16:38:07.899Z - debug: Compiled template not found in the cache, compiling
+2020-01-16T16:38:07.899Z - debug: Executing recipe chrome-pdf
+2020-01-16T16:38:08.073Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-16T16:38:08.175Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-16T16:38:08.344Z - debug: Skipping storing report.
+2020-01-16T16:38:08.344Z - info: Rendering request 36 finished in 671 ms
+2020-01-16T16:39:06.375Z - debug: OData update on assets
+2020-01-16T16:39:06.397Z - debug: OData query on assets
+2020-01-16T16:39:08.372Z - info: Starting rendering request 37 (user: null)
+2020-01-16T16:39:08.373Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-01-16T16:39:08.374Z - debug: Data item not defined for this template.
+2020-01-16T16:39:08.375Z - debug: Resources not defined for this template.
+2020-01-16T16:39:08.379Z - debug: Replaced assets ["colors.css","itc-logo.png"]
+2020-01-16T16:39:08.380Z - debug: Base url not specified, skipping its injection.
+2020-01-16T16:39:08.382Z - debug: Rendering engine handlebars
+2020-01-16T16:39:08.595Z - debug: Compiled template not found in the cache, compiling
+2020-01-16T16:39:08.596Z - debug: Executing recipe chrome-pdf
+2020-01-16T16:39:08.775Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-16T16:39:08.887Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-16T16:39:09.061Z - debug: Skipping storing report.
+2020-01-16T16:39:09.062Z - info: Rendering request 37 finished in 690 ms
+2020-01-16T16:39:55.808Z - debug: OData update on assets
+2020-01-16T16:39:55.831Z - debug: OData query on assets
+2020-01-16T16:39:56.930Z - info: Starting rendering request 38 (user: null)
+2020-01-16T16:39:56.932Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-01-16T16:39:56.932Z - debug: Data item not defined for this template.
+2020-01-16T16:39:56.933Z - debug: Resources not defined for this template.
+2020-01-16T16:39:56.936Z - debug: Replaced assets ["colors.css","itc-logo.png"]
+2020-01-16T16:39:56.938Z - debug: Base url not specified, skipping its injection.
+2020-01-16T16:39:56.938Z - debug: Rendering engine handlebars
+2020-01-16T16:39:57.223Z - debug: Compiled template not found in the cache, compiling
+2020-01-16T16:39:57.224Z - debug: Executing recipe chrome-pdf
+2020-01-16T16:39:57.404Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-16T16:39:57.517Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-16T16:39:57.693Z - debug: Skipping storing report.
+2020-01-16T16:39:57.694Z - info: Rendering request 38 finished in 780 ms
+2020-01-16T16:40:20.852Z - debug: OData update on assets
+2020-01-16T16:40:20.872Z - debug: OData query on assets
+2020-01-16T16:40:22.764Z - info: Starting rendering request 39 (user: null)
+2020-01-16T16:40:22.766Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-01-16T16:40:22.766Z - debug: Data item not defined for this template.
+2020-01-16T16:40:22.767Z - debug: Resources not defined for this template.
+2020-01-16T16:40:22.770Z - debug: Replaced assets ["colors.css","itc-logo.png"]
+2020-01-16T16:40:22.771Z - debug: Base url not specified, skipping its injection.
+2020-01-16T16:40:22.772Z - debug: Rendering engine handlebars
+2020-01-16T16:40:22.980Z - debug: Compiled template not found in the cache, compiling
+2020-01-16T16:40:22.981Z - debug: Executing recipe chrome-pdf
+2020-01-16T16:40:23.103Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-16T16:40:23.266Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-16T16:40:23.440Z - debug: Skipping storing report.
+2020-01-16T16:40:23.442Z - info: Rendering request 39 finished in 678 ms
+2020-01-16T16:40:50.404Z - debug: OData update on assets
+2020-01-16T16:40:50.425Z - debug: OData query on assets
+2020-01-16T16:40:51.533Z - info: Starting rendering request 40 (user: null)
+2020-01-16T16:40:51.535Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-01-16T16:40:51.536Z - debug: Data item not defined for this template.
+2020-01-16T16:40:51.536Z - debug: Resources not defined for this template.
+2020-01-16T16:40:51.539Z - debug: Replaced assets ["colors.css","itc-logo.png"]
+2020-01-16T16:40:51.540Z - debug: Base url not specified, skipping its injection.
+2020-01-16T16:40:51.541Z - debug: Rendering engine handlebars
+2020-01-16T16:40:51.832Z - debug: Compiled template not found in the cache, compiling
+2020-01-16T16:40:51.832Z - debug: Executing recipe chrome-pdf
+2020-01-16T16:40:51.953Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-16T16:40:52.095Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-16T16:40:52.379Z - debug: Skipping storing report.
+2020-01-16T16:40:52.381Z - info: Rendering request 40 finished in 850 ms
+2020-01-16T16:41:07.727Z - debug: OData update on assets
+2020-01-16T16:41:07.747Z - debug: OData query on assets
+2020-01-16T16:41:08.878Z - info: Starting rendering request 41 (user: null)
+2020-01-16T16:41:08.881Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-01-16T16:41:08.882Z - debug: Data item not defined for this template.
+2020-01-16T16:41:08.883Z - debug: Resources not defined for this template.
+2020-01-16T16:41:08.890Z - debug: Replaced assets ["colors.css","itc-logo.png"]
+2020-01-16T16:41:08.892Z - debug: Base url not specified, skipping its injection.
+2020-01-16T16:41:08.893Z - debug: Rendering engine handlebars
+2020-01-16T16:41:09.136Z - debug: Compiled template not found in the cache, compiling
+2020-01-16T16:41:09.137Z - debug: Executing recipe chrome-pdf
+2020-01-16T16:41:09.291Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-16T16:41:09.399Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-16T16:41:09.566Z - debug: Skipping storing report.
+2020-01-16T16:41:09.567Z - info: Rendering request 41 finished in 689 ms
+2020-01-16T16:45:32.021Z - debug: OData update on assets
+2020-01-16T16:45:32.041Z - debug: OData query on assets
+2020-01-16T16:45:34.145Z - info: Starting rendering request 42 (user: null)
+2020-01-16T16:45:34.146Z - info: Rendering template { name: colors, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-01-16T16:45:34.148Z - debug: Data item not defined for this template.
+2020-01-16T16:45:34.148Z - debug: Resources not defined for this template.
+2020-01-16T16:45:34.150Z - debug: Replaced assets ["colors.css","itc-logo.png"]
+2020-01-16T16:45:34.151Z - debug: Base url not specified, skipping its injection.
+2020-01-16T16:45:34.152Z - debug: Rendering engine handlebars
+2020-01-16T16:45:34.372Z - debug: Compiled template not found in the cache, compiling
+2020-01-16T16:45:34.373Z - debug: Executing recipe chrome-pdf
+2020-01-16T16:45:34.593Z - debug: Converting with chrome HeadlessChrome/76.0.3803.0 using dedicated-process strategy
+2020-01-16T16:45:34.710Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-01-16T16:45:34.929Z - debug: Skipping storing report.
+2020-01-16T16:45:34.930Z - info: Rendering request 42 finished in 785 ms
+2020-01-16T16:56:07.426Z - debug: OData remove from folders

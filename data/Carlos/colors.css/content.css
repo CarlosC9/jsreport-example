@@ -1,0 +1,15 @@
+h2 {
+    text-align: center;
+    background-color: #009cde;
+    height: 50px;
+    vertical-align: middle;
+    line-height: 50px; 
+}
+
+#logo-itc {
+    position: absolute;
+    height: 40px;
+    width: auto;
+    top: 13px;
+    left: 15px;
+}

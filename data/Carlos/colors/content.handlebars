@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <style>
+            {#asset colors.css @encoding=utf8}
+        </style>
+    </head>
+    <body>
+        <h2>Number of colors used by the users</h2>
+
+        <p>Number of people who use the following color to arrow parent type:</p>
+        <li>Black: {{parentType.black}}</li>
+        <li>Pink: {{parentType.pink}}</li>
+        <li>Orange: {{parentType.orange}}</li>
+
+        <br/>
+
+        <p>Number of people who use the following color to arrow scale change:</p>
+        <li>Green: {{scaleChange.green}}</li>
+        <li>Blue: {{scaleChange.blue}}</li>
+        <li>Red: {{scaleChange.red}}</li>
+        <img id="logo-itc" src="{#asset itc-logo.png @encoding=dataURI}" />
+    </body>
+</html>

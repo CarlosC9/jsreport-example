@@ -1,0 +1,12 @@
+{
+    "name": "Carlos",
+    "creationDate": {
+        "$$date": 1579100379624
+    },
+    "modificationDate": {
+        "$$date": 1579100379624
+    },
+    "shortid": "PT6x0Id",
+    "_id": "IEcA8bHBkvPlVdvo",
+    "$entitySet": "folders"
+}
